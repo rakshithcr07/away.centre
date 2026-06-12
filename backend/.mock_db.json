@@ -11,12 +11,12 @@
       "employee_count": 400,
       "linkedin_url": null,
       "country": "India",
-      "hiring_count": 3,
+      "hiring_count": 4,
       "is_active": true,
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:37:52.342Z",
-      "updated_at": "2026-06-12T12:30:49.619Z"
+      "updated_at": "2026-06-12T12:51:15.598Z"
     },
     {
       "id": "1b8e5fa3-e79a-4228-8f3a-ab84cf94e029",
@@ -28,12 +28,12 @@
       "employee_count": 2500,
       "linkedin_url": null,
       "country": "India",
-      "hiring_count": 3,
+      "hiring_count": 4,
       "is_active": true,
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:12.618Z",
-      "updated_at": "2026-06-12T12:30:49.163Z"
+      "updated_at": "2026-06-12T12:51:15.287Z"
     },
     {
       "id": "dfa72a04-6a90-4d11-a125-e36948de46e7",
@@ -45,12 +45,12 @@
       "employee_count": 700,
       "linkedin_url": null,
       "country": "India",
-      "hiring_count": 2,
+      "hiring_count": 3,
       "is_active": true,
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:12.633Z",
-      "updated_at": "2026-06-12T12:30:47.989Z"
+      "updated_at": "2026-06-12T12:51:14.437Z"
     },
     {
       "id": "ee1a2670-684d-4f6f-8f18-a22c8ee24cf0",
@@ -62,12 +62,12 @@
       "employee_count": 2500,
       "linkedin_url": null,
       "country": "India",
-      "hiring_count": 2,
+      "hiring_count": 3,
       "is_active": true,
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:12.667Z",
-      "updated_at": "2026-06-12T12:30:48.034Z"
+      "updated_at": "2026-06-12T12:51:14.470Z"
     },
     {
       "id": "9047d215-e3d8-4bb2-a383-02cb43a9c63f",
@@ -79,12 +79,12 @@
       "employee_count": 5000,
       "linkedin_url": null,
       "country": "India",
-      "hiring_count": 2,
+      "hiring_count": 3,
       "is_active": true,
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:12.702Z",
-      "updated_at": "2026-06-12T12:30:48.070Z"
+      "updated_at": "2026-06-12T12:51:14.502Z"
     },
     {
       "id": "f91f6f33-e1ef-4b11-adcf-8f7bfdfbe9b4",
@@ -96,12 +96,12 @@
       "employee_count": 2000,
       "linkedin_url": null,
       "country": "India",
-      "hiring_count": 3,
+      "hiring_count": 4,
       "is_active": true,
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:12.738Z",
-      "updated_at": "2026-06-12T12:30:49.197Z"
+      "updated_at": "2026-06-12T12:51:15.306Z"
     },
     {
       "id": "9b1ae527-3541-4091-b868-a6322f8c92c6",
@@ -118,7 +118,7 @@
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:12.771Z",
-      "updated_at": "2026-06-12T12:30:49.230Z"
+      "updated_at": "2026-06-12T12:51:15.327Z"
     },
     {
       "id": "0128f704-71c3-4306-aa81-df667df053bd",
@@ -135,7 +135,7 @@
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:12.798Z",
-      "updated_at": "2026-06-12T12:30:49.259Z"
+      "updated_at": "2026-06-12T12:51:15.350Z"
     },
     {
       "id": "1d6899b5-5e22-4946-bb50-a6f8c6ed1230",
@@ -152,7 +152,7 @@
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:12.812Z",
-      "updated_at": "2026-06-12T12:30:48.186Z"
+      "updated_at": "2026-06-12T12:51:14.593Z"
     },
     {
       "id": "58f1efa4-9d5b-47fb-8766-79b79a618937",
@@ -169,7 +169,7 @@
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:12.847Z",
-      "updated_at": "2026-06-12T12:30:48.220Z"
+      "updated_at": "2026-06-12T12:51:14.614Z"
     },
     {
       "id": "966c6400-b32e-4fea-91b1-cb5b43730010",
@@ -186,7 +186,7 @@
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:12.877Z",
-      "updated_at": "2026-06-12T12:30:48.244Z"
+      "updated_at": "2026-06-12T12:51:14.633Z"
     },
     {
       "id": "84ae6511-c968-4ac2-950e-c67cde589f76",
@@ -203,7 +203,7 @@
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:12.900Z",
-      "updated_at": "2026-06-12T12:30:48.270Z"
+      "updated_at": "2026-06-12T12:51:14.651Z"
     },
     {
       "id": "0b736a2f-c1e2-407c-b999-fd1bec75d1f1",
@@ -220,7 +220,7 @@
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:12.928Z",
-      "updated_at": "2026-06-12T12:30:48.297Z"
+      "updated_at": "2026-06-12T12:51:14.671Z"
     },
     {
       "id": "f43e3b32-305a-423f-a3d8-504e5dff5454",
@@ -237,7 +237,7 @@
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:12.945Z",
-      "updated_at": "2026-06-12T12:30:49.291Z"
+      "updated_at": "2026-06-12T12:51:15.372Z"
     },
     {
       "id": "f30be6b2-58d8-48a2-a0b4-efd3863f962e",
@@ -254,7 +254,7 @@
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:12.967Z",
-      "updated_at": "2026-06-12T12:30:48.380Z"
+      "updated_at": "2026-06-12T12:51:14.707Z"
     },
     {
       "id": "33bbc7d9-c0e7-4736-bf48-bb15049b0653",
@@ -271,7 +271,7 @@
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:12.987Z",
-      "updated_at": "2026-06-12T12:30:48.409Z"
+      "updated_at": "2026-06-12T12:51:14.724Z"
     },
     {
       "id": "13f9cae5-33b9-4393-b5a6-04fd2792d93d",
@@ -288,7 +288,7 @@
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:13.014Z",
-      "updated_at": "2026-06-12T12:30:48.437Z"
+      "updated_at": "2026-06-12T12:51:14.742Z"
     },
     {
       "id": "33b7869c-1af6-4443-a4d0-83885f7f0419",
@@ -305,7 +305,7 @@
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:13.034Z",
-      "updated_at": "2026-06-12T12:30:48.478Z"
+      "updated_at": "2026-06-12T12:51:14.762Z"
     },
     {
       "id": "ca3eaf95-8cc2-4b5e-83b5-4d280f4ec0bc",
@@ -322,7 +322,7 @@
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:13.056Z",
-      "updated_at": "2026-06-12T12:30:48.501Z"
+      "updated_at": "2026-06-12T12:51:14.784Z"
     },
     {
       "id": "421cd3f1-257c-4bb5-b4db-ad79275ab1ef",
@@ -339,7 +339,7 @@
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:13.074Z",
-      "updated_at": "2026-06-12T12:30:48.529Z"
+      "updated_at": "2026-06-12T12:51:14.799Z"
     },
     {
       "id": "91ac6258-3a3a-4706-9792-782dff9e811a",
@@ -356,7 +356,7 @@
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:13.093Z",
-      "updated_at": "2026-06-12T12:30:48.822Z"
+      "updated_at": "2026-06-12T12:51:14.999Z"
     },
     {
       "id": "2a818ef4-5bcb-4e3a-ae3d-12da9de47b8d",
@@ -373,7 +373,7 @@
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:13.111Z",
-      "updated_at": "2026-06-12T12:30:48.724Z"
+      "updated_at": "2026-06-12T12:51:14.886Z"
     },
     {
       "id": "f562a63d-60e3-4bcf-b947-1927e315cbe4",
@@ -390,7 +390,7 @@
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:13.135Z",
-      "updated_at": "2026-06-12T12:30:48.806Z"
+      "updated_at": "2026-06-12T12:51:14.977Z"
     },
     {
       "id": "3e0d03f2-16f2-4a55-bc22-4509aeb036f3",
@@ -407,7 +407,7 @@
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:13.152Z",
-      "updated_at": "2026-06-12T12:30:48.693Z"
+      "updated_at": "2026-06-12T12:51:14.866Z"
     },
     {
       "id": "e7b35c92-5be9-4708-a1da-fc5f335e7415",
@@ -424,7 +424,7 @@
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:13.188Z",
-      "updated_at": "2026-06-12T12:30:48.741Z"
+      "updated_at": "2026-06-12T12:51:14.910Z"
     },
     {
       "id": "f88e648d-7e4e-495c-9b0a-2526f38fffc8",
@@ -441,7 +441,7 @@
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:13.216Z",
-      "updated_at": "2026-06-12T12:30:48.766Z"
+      "updated_at": "2026-06-12T12:51:14.936Z"
     },
     {
       "id": "cd341ea9-21fa-4710-b888-687cb25ec1b4",
@@ -458,7 +458,7 @@
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:13.237Z",
-      "updated_at": "2026-06-12T12:30:48.784Z"
+      "updated_at": "2026-06-12T12:51:14.956Z"
     },
     {
       "id": "202074e9-bcf3-4520-98dd-1304aa7b2530",
@@ -475,7 +475,7 @@
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:13.310Z",
-      "updated_at": "2026-06-12T12:30:49.332Z"
+      "updated_at": "2026-06-12T12:51:15.396Z"
     },
     {
       "id": "dcd537c7-2c38-4180-8c17-bec0e93209f1",
@@ -492,7 +492,7 @@
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:13.338Z",
-      "updated_at": "2026-06-12T12:30:48.878Z"
+      "updated_at": "2026-06-12T12:51:15.035Z"
     },
     {
       "id": "494466d1-92a8-4b36-97aa-a0e22cf73694",
@@ -509,7 +509,7 @@
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:13.360Z",
-      "updated_at": "2026-06-12T12:30:49.359Z"
+      "updated_at": "2026-06-12T12:51:15.419Z"
     },
     {
       "id": "84f5f0a9-5a47-4dc2-a493-f16314e80f8a",
@@ -526,7 +526,7 @@
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:13.385Z",
-      "updated_at": "2026-06-12T12:30:48.916Z"
+      "updated_at": "2026-06-12T12:51:15.071Z"
     },
     {
       "id": "9d9a31df-8d19-47cb-9062-82f8f8ff2df2",
@@ -543,7 +543,7 @@
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:13.408Z",
-      "updated_at": "2026-06-12T12:30:48.934Z"
+      "updated_at": "2026-06-12T12:51:15.088Z"
     },
     {
       "id": "57c6cc82-9af3-4f6b-ad84-33fe69b08237",
@@ -560,7 +560,7 @@
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:13.432Z",
-      "updated_at": "2026-06-12T12:30:48.957Z"
+      "updated_at": "2026-06-12T12:51:15.108Z"
     },
     {
       "id": "2ad33872-d893-4b6b-91a6-5363639d5c9a",
@@ -577,7 +577,7 @@
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:13.456Z",
-      "updated_at": "2026-06-12T12:30:48.977Z"
+      "updated_at": "2026-06-12T12:51:15.124Z"
     },
     {
       "id": "7d8b975e-ba35-449c-90dd-eea8a426172b",
@@ -594,7 +594,7 @@
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:13.481Z",
-      "updated_at": "2026-06-12T12:30:48.996Z"
+      "updated_at": "2026-06-12T12:51:15.143Z"
     },
     {
       "id": "577bfcfa-908d-4014-a014-f35ea5dc2b04",
@@ -611,7 +611,7 @@
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:13.507Z",
-      "updated_at": "2026-06-12T12:30:49.388Z"
+      "updated_at": "2026-06-12T12:51:15.441Z"
     },
     {
       "id": "dff29bf7-8ddd-46a3-a8a9-2f4e338913f0",
@@ -628,7 +628,7 @@
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:13.532Z",
-      "updated_at": "2026-06-12T12:30:49.420Z"
+      "updated_at": "2026-06-12T12:51:15.462Z"
     },
     {
       "id": "8cc17685-403b-49a3-88b5-9ee3741317ce",
@@ -645,7 +645,7 @@
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:13.557Z",
-      "updated_at": "2026-06-12T12:30:49.066Z"
+      "updated_at": "2026-06-12T12:51:15.207Z"
     },
     {
       "id": "1433f916-692d-4964-ba09-b1f38176784c",
@@ -662,7 +662,7 @@
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:13.583Z",
-      "updated_at": "2026-06-12T12:30:49.453Z"
+      "updated_at": "2026-06-12T12:51:15.485Z"
     },
     {
       "id": "c0fbc53f-0028-402c-8b60-eedef8600258",
@@ -679,7 +679,7 @@
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:13.610Z",
-      "updated_at": "2026-06-12T12:30:49.500Z"
+      "updated_at": "2026-06-12T12:51:15.509Z"
     },
     {
       "id": "50b879a5-558d-4f40-a2d0-08a185656335",
@@ -691,12 +691,12 @@
       "employee_count": 350,
       "linkedin_url": null,
       "country": "India",
-      "hiring_count": 3,
+      "hiring_count": 4,
       "is_active": true,
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T11:40:13.634Z",
-      "updated_at": "2026-06-12T12:30:49.581Z"
+      "updated_at": "2026-06-12T12:51:15.566Z"
     }
   ],
   "company_aliases": [
@@ -2479,6 +2479,978 @@
       },
       "processed": true,
       "created_at": "2026-06-12T12:30:47.910Z"
+    },
+    {
+      "id": "af512528-55bd-4643-989f-935308db5807",
+      "source": "wellfound",
+      "raw_payload": {
+        "source": "wellfound",
+        "companyName": "Razorpay",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Hiring in Bangalore - 15 engineering roles, office manager, HR team",
+        "signalDate": "2026-06-12T12:50",
+        "confidenceScore": 0.92,
+        "website": "https://razorpay.com",
+        "city": "Bangalore",
+        "industry": "Fintech",
+        "employeeCount": 2500
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:30.105Z"
+    },
+    {
+      "id": "8cbc7142-e80a-478f-92d4-9a2ab027c2d3",
+      "source": "wellfound",
+      "raw_payload": {
+        "source": "wellfound",
+        "companyName": "Darwinbox",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Hiring in Hyderabad - HR teams and operations, hybrid setup",
+        "signalDate": "2026-06-12T12:50",
+        "confidenceScore": 0.84,
+        "website": "https://darwinbox.com",
+        "city": "Hyderabad",
+        "industry": "SaaS",
+        "employeeCount": 700
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:30.114Z"
+    },
+    {
+      "id": "f21e0f8e-803e-4fb5-a6ec-ea443ce653a5",
+      "source": "wellfound",
+      "raw_payload": {
+        "source": "wellfound",
+        "companyName": "Ather Energy",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Hiring in Bangalore - operations teams, onsite hybrid",
+        "signalDate": "2026-06-12T12:50",
+        "confidenceScore": 0.85,
+        "website": "https://atherenergy.com",
+        "city": "Bangalore",
+        "industry": "Manufacturing",
+        "employeeCount": 2500
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:30.119Z"
+    },
+    {
+      "id": "e0272779-98bd-46e1-b357-fdd713332348",
+      "source": "google_jobs",
+      "raw_payload": {
+        "source": "google_jobs",
+        "companyName": "Freshworks",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Hiring in Chennai - multiple jobs posted for onsite hybrid roles",
+        "signalDate": "2026-06-12T12:50",
+        "confidenceScore": 0.87,
+        "website": "https://freshworks.com",
+        "city": "Chennai",
+        "industry": "SaaS",
+        "employeeCount": 5000
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:30.126Z"
+    },
+    {
+      "id": "1e569c5d-fc8a-4548-859c-7796159079d5",
+      "source": "google_jobs",
+      "raw_payload": {
+        "source": "google_jobs",
+        "companyName": "Navi Technologies",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Hiring in Bangalore - multiple engineering roles posted",
+        "signalDate": "2026-06-12T12:50",
+        "confidenceScore": 0.88,
+        "website": "https://navi.com",
+        "city": "Bangalore",
+        "industry": "Fintech",
+        "employeeCount": 2000
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:30.131Z"
+    },
+    {
+      "id": "bf1bf339-aeeb-4aa8-bc51-8b043c6d2a83",
+      "source": "crunchbase",
+      "raw_payload": {
+        "source": "crunchbase",
+        "companyName": "Juspay",
+        "signalType": "FUNDING_SIGNAL",
+        "signalText": "Raised Series B expansion capital for India growth",
+        "signalDate": "2026-06-12T12:50",
+        "confidenceScore": 0.88,
+        "website": "https://juspay.in",
+        "city": "Bangalore",
+        "industry": "Fintech",
+        "employeeCount": 400
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:30.137Z"
+    },
+    {
+      "id": "0707a40e-1f9a-4e87-b27b-5cd6038a34e6",
+      "source": "crunchbase",
+      "raw_payload": {
+        "source": "crunchbase",
+        "companyName": "Hasura",
+        "signalType": "FUNDING_SIGNAL",
+        "signalText": "Raised Series B funding for product expansion",
+        "signalDate": "2026-06-12T12:50",
+        "confidenceScore": 0.91,
+        "website": "https://hasura.io",
+        "city": "Bangalore",
+        "industry": "SaaS",
+        "employeeCount": 150
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:30.146Z"
+    },
+    {
+      "id": "d262ec48-d4ea-4bec-a11c-397bd6ceff4d",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "VB-G RAM",
+        "signalType": "FUNDING_SIGNAL",
+        "signalText": "VB-G RAM G: State to push for revised minimum wages, seek 80:20 funding model",
+        "signalDate": "2026-06-10",
+        "confidenceScore": 0.85,
+        "city": "Bangalore",
+        "website": "https://vb-gram.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:37.021Z"
+    },
+    {
+      "id": "1c0133f6-295f-4b5b-81da-af657970a262",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "does",
+        "signalType": "FUNDING_SIGNAL",
+        "signalText": "Why does startup capital in India keep flowing back to the same cities even as innovation spreads across the country? Bengaluru continues to dominate funding, driven by deep activity in AI and a strong engineering talent base, with Mumbai close behind on th",
+        "signalDate": "2025-12-22",
+        "confidenceScore": 0.85,
+        "city": "Bangalore",
+        "website": "https://does.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:37.026Z"
+    },
+    {
+      "id": "e5755927-3a42-43b3-861f-ae3e398f51b7",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Wego doubles",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "Wego doubles down on India with major Bangalore office expansion",
+        "signalDate": "2026-04-27",
+        "confidenceScore": 0.85,
+        "city": "Bangalore",
+        "website": "https://wegodoubles.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:37.031Z"
+    },
+    {
+      "id": "feeb1815-a878-417e-a778-6dd4dfd06882",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "AHEAD to",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "AHEAD to launch office in Bangalore, strengthen digital transformation in S India",
+        "signalDate": "2026-06-04",
+        "confidenceScore": 0.85,
+        "city": "Bangalore",
+        "website": "https://aheadto.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:37.035Z"
+    },
+    {
+      "id": "4ef41c9f-dc01-4a4b-bdb5-b41137120c04",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Shield AI",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "Shield AI deepens India presence with New Delhi office and planned Bengaluru expansion",
+        "signalDate": "2026-04-29",
+        "confidenceScore": 0.85,
+        "city": "Bangalore",
+        "website": "https://shieldai.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:37.043Z"
+    },
+    {
+      "id": "e1a25c20-deda-4970-80bf-ba04895e0b72",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "SBM Offshore",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "SBM Offshore strengthens India commitment with new Bengaluru office, advancing global engineering and digital capabilities",
+        "signalDate": "2026-05-27",
+        "confidenceScore": 0.85,
+        "city": "Bangalore",
+        "website": "https://sbmoffshore.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:37.048Z"
+    },
+    {
+      "id": "44eaebc8-4b8c-407c-8664-e8656115f269",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Zomato",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "Zomato expands footprint: Leases 1.5 lakh sq ft office in Bengaluru for a total rent of ₹200 crore | Real Estate News",
+        "signalDate": "2026-05-27",
+        "confidenceScore": 0.85,
+        "city": "Bangalore",
+        "website": "https://zomato.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:37.052Z"
+    },
+    {
+      "id": "38cdf3b4-85ae-45fa-b876-957baa9a6950",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Bengaluru",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Bengaluru hiring surges, but salaries feel tighter. Can employees afford it?",
+        "signalDate": "2026-03-25",
+        "confidenceScore": 0.85,
+        "city": "Bangalore",
+        "website": "https://bengaluru.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:37.057Z"
+    },
+    {
+      "id": "d4b9e192-9865-4e4c-8739-e19536ca2513",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "OpenAI is",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "OpenAI is Hiring for AI Deployment Engineer in Bengaluru",
+        "signalDate": "2026-03-18",
+        "confidenceScore": 0.85,
+        "city": "Bangalore",
+        "website": "https://openaiis.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:37.063Z"
+    },
+    {
+      "id": "4cc4abfc-9549-444d-a488-184b3c2380b8",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Certinia to",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Certinia to add 100 new jobs in Bengaluru, India",
+        "signalDate": "2025-11-06",
+        "confidenceScore": 0.85,
+        "city": "Bangalore",
+        "website": "https://certiniato.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:37.068Z"
+    },
+    {
+      "id": "98516d79-6a87-4e52-a4cf-addabff25dd2",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Nod for",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "Nod for Vizag Metro hinges on State's financial clearance",
+        "signalDate": "2026-04-16",
+        "confidenceScore": 0.85,
+        "city": "Vizag",
+        "website": "https://nodfor.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:37.076Z"
+    },
+    {
+      "id": "286d0658-5437-4245-aa69-e3f950c150bc",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Google Cloud",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "Google Cloud AI Hub in Vizag: Andhra’s ₹1.35 lakh crore bet on India’s tech future",
+        "signalDate": "2026-04-28",
+        "confidenceScore": 0.85,
+        "city": "Vizag",
+        "website": "https://googlecloud.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:37.082Z"
+    },
+    {
+      "id": "1dc603c1-028d-46e0-8340-a093de2780af",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "After years",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "After years of losses, Centre’s support returns Vizag steel plant to profitability",
+        "signalDate": "2026-02-05",
+        "confidenceScore": 0.85,
+        "city": "Vizag",
+        "website": "https://afteryears.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:37.086Z"
+    },
+    {
+      "id": "e837d1f6-fafc-4efe-9e4d-d1fe72d795c9",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Cognizant breaks",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "Cognizant breaks ground on 8000-seater campus in Visakhapatnam",
+        "signalDate": "2025-12-12",
+        "confidenceScore": 0.85,
+        "city": "Vizag",
+        "website": "https://cognizantbreaks.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:37.092Z"
+    },
+    {
+      "id": "79fc9bb7-eedd-4208-bd4c-9f5d729811f2",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Infosys To",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "Infosys To Set Up 7K-seater Office On 20-acre Campus In Vizag",
+        "signalDate": "2026-04-30",
+        "confidenceScore": 0.85,
+        "city": "Vizag",
+        "website": "https://infosysto.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:37.096Z"
+    },
+    {
+      "id": "97bf4c7a-c1de-4270-b026-8f9dfde868a1",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "37 property",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "37 property owners get compensation ccheques for road expansion in Vizag",
+        "signalDate": "2026-01-13",
+        "confidenceScore": 0.85,
+        "city": "Vizag",
+        "website": "https://37property.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:37.103Z"
+    },
+    {
+      "id": "93a7b689-f156-49d8-b00e-62d786502889",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Cognizant breaks",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "Cognizant breaks ground on 8000-seater campus in Visakhapatnam",
+        "signalDate": "2025-12-12",
+        "confidenceScore": 0.85,
+        "city": "Vizag",
+        "website": "https://cognizantbreaks.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:37.107Z"
+    },
+    {
+      "id": "b377f798-b08f-427d-b5ea-fbc56574cd72",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Our First",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "Our First AI Hub in India, Powered by a $15 Billion Investment",
+        "signalDate": "2025-10-14",
+        "confidenceScore": 0.85,
+        "city": "Vizag",
+        "website": "https://ourfirst.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:37.111Z"
+    },
+    {
+      "id": "ffaf63d0-5023-460f-8e25-8ed06e594dab",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Foundation laid",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "Foundation laid for 8,000-seat\nCognizant campus in Visakhapatnam",
+        "signalDate": "2025-12-13",
+        "confidenceScore": 0.85,
+        "city": "Vizag",
+        "website": "https://foundationlaid.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:37.115Z"
+    },
+    {
+      "id": "8d0ea5c2-cca3-4c81-8264-1d37546dc14b",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Engineering talent",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "Engineering talent finds new avenue in medtech sector in Vizag",
+        "signalDate": "2026-05-04",
+        "confidenceScore": 0.85,
+        "city": "Vizag",
+        "website": "https://engineeringtalent.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:37.119Z"
+    },
+    {
+      "id": "9315a796-9b85-4cb1-885f-9a40cdcfaa17",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Infosys",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "Infosys plans 20-acre Vizag campus with 7,000 capacity, workforce grows to 1,900",
+        "signalDate": "2026-04-30",
+        "confidenceScore": 0.85,
+        "city": "Vizag",
+        "website": "https://infosys.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:37.123Z"
+    },
+    {
+      "id": "b9c7701c-a5fd-4b04-9a75-1a532edcf0ba",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "11 years",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "11 years on, Andhra Pradesh awaits own food testing lab",
+        "signalDate": "2025-09-22",
+        "confidenceScore": 0.85,
+        "city": "Vizag",
+        "website": "https://11years.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:37.129Z"
+    },
+    {
+      "id": "f1bc8ffa-c1b6-4177-b1a7-d0dd570bb048",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "FusionStays",
+        "signalType": "FUNDING_SIGNAL",
+        "signalText": "FusionStays Raises INR 75 Lakhs in Pre-Seed Funding Led by Vruddhi Capital Kolkata, India",
+        "signalDate": "2026-03-19",
+        "confidenceScore": 0.85,
+        "city": "Kolkata",
+        "website": "https://fusionstays.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:37.134Z"
+    },
+    {
+      "id": "50794510-4188-49da-86ec-cd549bf45664",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Tega to",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "Tega to raise Rs3.3k cr to fund Molycop deal",
+        "signalDate": "2025-09-15",
+        "confidenceScore": 0.85,
+        "city": "Kolkata",
+        "website": "https://tegato.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:37.139Z"
+    },
+    {
+      "id": "63548dea-600e-47dd-a807-81cfa9fc29cb",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "CIMCON Automation",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "CIMCON Automation opens Kolkata Office for East expansion",
+        "signalDate": "2026-03-11",
+        "confidenceScore": 0.85,
+        "city": "Kolkata",
+        "website": "https://cimconautomation.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:37.144Z"
+    },
+    {
+      "id": "0b19082c-70ad-4653-8579-0acded7b552b",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Fire engulfs",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "Fire engulfs multiple floors of eight-storey government building in Kolkata",
+        "signalDate": "2026-06-10",
+        "confidenceScore": 0.85,
+        "city": "Kolkata",
+        "website": "https://fireengulfs.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:37.149Z"
+    },
+    {
+      "id": "355368f3-0489-474b-9719-be40b4f5e92c",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Bulldozer politics",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "Bulldozer politics reaches Bengal? TMC office razed in Kolkata's New Market area",
+        "signalDate": "2026-05-06",
+        "confidenceScore": 0.85,
+        "city": "Kolkata",
+        "website": "https://bulldozerpolitics.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:37.155Z"
+    },
+    {
+      "id": "acd1c97a-0419-4766-8191-f9b9a0feb9ab",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "KPMG Global Services",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "KPMG Global Services opens new tax office in Kolkata",
+        "signalDate": "2026-01-27",
+        "confidenceScore": 0.85,
+        "city": "Kolkata",
+        "website": "https://kpmgglobalservices.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:37.160Z"
+    },
+    {
+      "id": "a174f54d-262c-47d3-921c-2d7e17345264",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Schoolteacher recruitment",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "Schoolteacher recruitment a priority: Edu minister",
+        "signalDate": "2026-06-11",
+        "confidenceScore": 0.85,
+        "city": "Kolkata",
+        "website": "https://schoolteacherrecruitment.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:37.166Z"
+    },
+    {
+      "id": "2246bf4d-1880-433f-b844-84867760b20e",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "8 lakh",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "8 lakh in Group C test today under tight security, shoe ban for candidates",
+        "signalDate": "2026-03-01",
+        "confidenceScore": 0.85,
+        "city": "Kolkata",
+        "website": "https://8lakh.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:37.172Z"
+    },
+    {
+      "id": "f9ef5713-87f8-438a-8cd1-892ec7c3ca81",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Chargebee",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "India expansion with new office announcement in Bangalore",
+        "signalDate": "2026-06-12T12:50",
+        "confidenceScore": 0.9,
+        "website": "https://chargebee.com",
+        "city": "Bangalore",
+        "industry": "SaaS",
+        "employeeCount": 600
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:37.177Z"
+    },
+    {
+      "id": "49db2d40-c8c8-4281-8059-0c701cc3c642",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Innovaccer",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "South India expansion - opened office in Vizag",
+        "signalDate": "2026-06-12T12:50",
+        "confidenceScore": 0.89,
+        "website": "https://innovaccer.com",
+        "city": "Vizag",
+        "industry": "HealthTech",
+        "employeeCount": 1500
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:37.182Z"
+    },
+    {
+      "id": "40281660-6d07-45e3-bcd3-c39fb42ed3eb",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Practo",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "Kolkata expansion - India launch of new regional office",
+        "signalDate": "2026-06-12T12:50",
+        "confidenceScore": 0.87,
+        "website": "https://practo.com",
+        "city": "Kolkata",
+        "industry": "HealthTech",
+        "employeeCount": 1800
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:37.189Z"
+    },
+    {
+      "id": "dc921d12-544a-489f-a1d8-155cd3cecdc7",
+      "source": "linkedin",
+      "raw_payload": {
+        "source": "linkedin",
+        "companyName": "Postman",
+        "signalType": "SOCIAL_SIGNAL",
+        "signalText": "Founder post: WFH isn't working, team growing fast, looking for office space in Bangalore",
+        "signalDate": "2026-06-12T12:50",
+        "confidenceScore": 0.85,
+        "website": "https://postman.com",
+        "city": "Bangalore",
+        "industry": "SaaS",
+        "employeeCount": 800
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:37.194Z"
+    },
+    {
+      "id": "813d0039-5982-4873-ba1e-6ad23cfaefca",
+      "source": "linkedin",
+      "raw_payload": {
+        "source": "linkedin",
+        "companyName": "Zeta",
+        "signalType": "SOCIAL_SIGNAL",
+        "signalText": "HR post about need hybrid setup and office space in Bangalore",
+        "signalDate": "2026-06-12T12:50",
+        "confidenceScore": 0.83,
+        "website": "https://zeta.tech",
+        "city": "Bangalore",
+        "industry": "Fintech",
+        "employeeCount": 1200
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:37.199Z"
+    },
+    {
+      "id": "ed699bbb-ffca-4547-bef3-a56152e5a044",
+      "source": "career_page",
+      "raw_payload": {
+        "source": "career_page",
+        "companyName": "Razorpay",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Active jobs found on website careers page: https://razorpay.com/jobs/",
+        "signalDate": "2026-06-12",
+        "confidenceScore": 0.9,
+        "website": "https://razorpay.com"
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:40.238Z"
+    },
+    {
+      "id": "1685edf4-bc32-4474-b4de-a57eea6a7490",
+      "source": "career_page",
+      "raw_payload": {
+        "source": "career_page",
+        "companyName": "Navi Technologies",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Active jobs found on website careers page: https://navi.com/careers",
+        "signalDate": "2026-06-12",
+        "confidenceScore": 0.9,
+        "website": "https://navi.com"
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:41.559Z"
+    },
+    {
+      "id": "d0bd522a-0dbd-43c2-aaf7-1483158964f0",
+      "source": "career_page",
+      "raw_payload": {
+        "source": "career_page",
+        "companyName": "Juspay",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Active jobs found on website careers page: https://juspay.in/careers",
+        "signalDate": "2026-06-12",
+        "confidenceScore": 0.9,
+        "website": "https://juspay.in"
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:42.091Z"
+    },
+    {
+      "id": "46167fe2-d0bf-46ba-b9ee-b74660725476",
+      "source": "career_page",
+      "raw_payload": {
+        "source": "career_page",
+        "companyName": "Hasura",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Active jobs found on website careers page: https://hasura.io/careers",
+        "signalDate": "2026-06-12",
+        "confidenceScore": 0.9,
+        "website": "https://hasura.io"
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:43.537Z"
+    },
+    {
+      "id": "606d7eeb-e953-4cad-8fa0-8c060f08bd3b",
+      "source": "career_page",
+      "raw_payload": {
+        "source": "career_page",
+        "companyName": "SBM Offshore",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Active jobs found on website careers page: https://careers.sbmoffshore.com",
+        "signalDate": "2026-06-12",
+        "confidenceScore": 0.9,
+        "website": "https://sbmoffshore.com"
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:49.806Z"
+    },
+    {
+      "id": "a8aa260d-04c8-47b8-839c-9d34ede65b97",
+      "source": "career_page",
+      "raw_payload": {
+        "source": "career_page",
+        "companyName": "FusionStays",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Active jobs found on website careers page: https://fusionstays.com/career",
+        "signalDate": "2026-06-12",
+        "confidenceScore": 0.9,
+        "website": "https://fusionstays.com"
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:50:58.942Z"
+    },
+    {
+      "id": "219e52df-3b30-43a8-82b6-05936aaf5480",
+      "source": "career_page",
+      "raw_payload": {
+        "source": "career_page",
+        "companyName": "CIMCON Automation",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Active jobs found on website careers page: https://cimconautomation.com/career/",
+        "signalDate": "2026-06-12",
+        "confidenceScore": 0.9,
+        "website": "https://cimconautomation.com"
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:51:02.954Z"
+    },
+    {
+      "id": "f58fc4a4-c7f3-47d0-a027-a0d8892d6a6c",
+      "source": "career_page",
+      "raw_payload": {
+        "source": "career_page",
+        "companyName": "Chargebee",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Active jobs found on website careers page: https://chargebee.com/careers/",
+        "signalDate": "2026-06-12",
+        "confidenceScore": 0.9,
+        "website": "https://chargebee.com"
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:51:06.848Z"
+    },
+    {
+      "id": "0fbf97b9-155c-4514-becf-cb462a94762b",
+      "source": "career_page",
+      "raw_payload": {
+        "source": "career_page",
+        "companyName": "Innovaccer",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Active jobs found on website careers page: https://innovaccer.com/careers",
+        "signalDate": "2026-06-12",
+        "confidenceScore": 0.9,
+        "website": "https://innovaccer.com"
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:51:09.039Z"
+    },
+    {
+      "id": "745be798-397b-4fac-bfd0-cbc7e54594bd",
+      "source": "career_page",
+      "raw_payload": {
+        "source": "career_page",
+        "companyName": "Postman",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Active jobs found on website careers page: https://postman.com/company/careers/",
+        "signalDate": "2026-06-12",
+        "confidenceScore": 0.9,
+        "website": "https://postman.com"
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:51:12.044Z"
+    },
+    {
+      "id": "92b7a08f-423b-4328-8db6-9ccac5ff34a8",
+      "source": "career_page",
+      "raw_payload": {
+        "source": "career_page",
+        "companyName": "Zeta",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Active jobs found on website careers page: https://zeta.tech/in/careers",
+        "signalDate": "2026-06-12",
+        "confidenceScore": 0.9,
+        "website": "https://zeta.tech"
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:51:13.691Z"
+    },
+    {
+      "id": "e1678d0f-562c-4dc9-b3f6-593c212eb2cd",
+      "source": "career_page",
+      "raw_payload": {
+        "source": "career_page",
+        "companyName": "M2P Fintech",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Active jobs found on website careers page: https://careers.m2pfintech.com/",
+        "signalDate": "2026-06-12",
+        "confidenceScore": 0.9,
+        "website": "https://m2pfintech.com"
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:51:14.319Z"
+    },
+    {
+      "id": "5a3a7564-7beb-436e-b6eb-5845c0912890",
+      "source": "career_page",
+      "raw_payload": {
+        "source": "career_page",
+        "companyName": "M2P Fintech",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Hiring in Bangalore - engineers and customer support, onsite",
+        "signalDate": "2026-06-12T12:51",
+        "confidenceScore": 0.86,
+        "website": "https://m2pfintech.com",
+        "city": "Bangalore",
+        "industry": "Fintech",
+        "employeeCount": 350
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:51:14.324Z"
+    },
+    {
+      "id": "22581b76-1947-468c-b283-1f8b76c1fda4",
+      "source": "career_page",
+      "raw_payload": {
+        "source": "career_page",
+        "companyName": "Slice",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Hiring in Bangalore - engineers, HR, office manager roles",
+        "signalDate": "2026-06-12T12:51",
+        "confidenceScore": 0.9,
+        "website": "https://sliceit.com",
+        "city": "Bangalore",
+        "industry": "Fintech",
+        "employeeCount": 400
+      },
+      "processed": true,
+      "created_at": "2026-06-12T12:51:14.333Z"
     }
   ],
   "signals": [
@@ -3461,6 +4433,202 @@
       "is_active": true,
       "is_duplicate": false,
       "created_at": "2026-06-12T12:30:49.613Z"
+    },
+    {
+      "id": "1a25eb09-d5c1-4bc0-8afc-806582ce2a6f",
+      "company_id": "1b8e5fa3-e79a-4228-8f3a-ab84cf94e029",
+      "signal_type": "HIRING_SIGNAL",
+      "signal_source": "wellfound",
+      "signal_text": "Hiring in Bangalore - 15 engineering roles, office manager, HR team",
+      "signal_date": "2026-06-12T12:50",
+      "confidence_score": 0.92,
+      "content_hash": "9107c2cc4c982cc64e591c1cb6564714cc9d11979772f229e3860b45d0e37f73",
+      "raw_payload": {},
+      "is_active": true,
+      "is_duplicate": false,
+      "created_at": "2026-06-12T12:51:14.399Z"
+    },
+    {
+      "id": "841f16de-ceb3-433d-b900-8a2cedcbb319",
+      "company_id": "dfa72a04-6a90-4d11-a125-e36948de46e7",
+      "signal_type": "HIRING_SIGNAL",
+      "signal_source": "wellfound",
+      "signal_text": "Hiring in Hyderabad - HR teams and operations, hybrid setup",
+      "signal_date": "2026-06-12T12:50",
+      "confidence_score": 0.84,
+      "content_hash": "54aaa90e52e06c2fd96d53aabf180afebd814bd3bcbfb64f8837e58db48e3e81",
+      "raw_payload": {},
+      "is_active": true,
+      "is_duplicate": false,
+      "created_at": "2026-06-12T12:51:14.430Z"
+    },
+    {
+      "id": "d99c2f54-d910-453e-b46a-be941c60a61a",
+      "company_id": "ee1a2670-684d-4f6f-8f18-a22c8ee24cf0",
+      "signal_type": "HIRING_SIGNAL",
+      "signal_source": "wellfound",
+      "signal_text": "Hiring in Bangalore - operations teams, onsite hybrid",
+      "signal_date": "2026-06-12T12:50",
+      "confidence_score": 0.85,
+      "content_hash": "9af059f3e2c863606765480df9c721dfadc803311723bd1a62b7cb3cc5582673",
+      "raw_payload": {},
+      "is_active": true,
+      "is_duplicate": false,
+      "created_at": "2026-06-12T12:51:14.462Z"
+    },
+    {
+      "id": "307600d8-263d-4b49-b79a-2e1f6459fdd9",
+      "company_id": "9047d215-e3d8-4bb2-a383-02cb43a9c63f",
+      "signal_type": "HIRING_SIGNAL",
+      "signal_source": "google_jobs",
+      "signal_text": "Hiring in Chennai - multiple jobs posted for onsite hybrid roles",
+      "signal_date": "2026-06-12T12:50",
+      "confidence_score": 0.87,
+      "content_hash": "7ba636cb355ce1b3f69223975698112c1dc4d9e8b75abb3372785ac0c7d4995e",
+      "raw_payload": {},
+      "is_active": true,
+      "is_duplicate": false,
+      "created_at": "2026-06-12T12:51:14.494Z"
+    },
+    {
+      "id": "5b040d8c-33ca-41fd-b3f9-f97e53ebbd82",
+      "company_id": "f91f6f33-e1ef-4b11-adcf-8f7bfdfbe9b4",
+      "signal_type": "HIRING_SIGNAL",
+      "signal_source": "google_jobs",
+      "signal_text": "Hiring in Bangalore - multiple engineering roles posted",
+      "signal_date": "2026-06-12T12:50",
+      "confidence_score": 0.88,
+      "content_hash": "44274432f1b31c2f2c017675c28de16d806d5838dcb74e6bda06590745a683c5",
+      "raw_payload": {},
+      "is_active": true,
+      "is_duplicate": false,
+      "created_at": "2026-06-12T12:51:14.524Z"
+    },
+    {
+      "id": "405263ec-d482-4804-b12e-140e8a8c7e12",
+      "company_id": "9b1ae527-3541-4091-b868-a6322f8c92c6",
+      "signal_type": "FUNDING_SIGNAL",
+      "signal_source": "crunchbase",
+      "signal_text": "Raised Series B expansion capital for India growth",
+      "signal_date": "2026-06-12T12:50",
+      "confidence_score": 0.88,
+      "content_hash": "6032739b2a771cb0815cfe31a7b5eb77a51f93f30c2129adb688d7b46b7bd8bd",
+      "raw_payload": {},
+      "is_active": true,
+      "is_duplicate": false,
+      "created_at": "2026-06-12T12:51:14.555Z"
+    },
+    {
+      "id": "ab4ad6d6-2b5c-40c8-a0e0-8db0ef09b057",
+      "company_id": "0128f704-71c3-4306-aa81-df667df053bd",
+      "signal_type": "FUNDING_SIGNAL",
+      "signal_source": "crunchbase",
+      "signal_text": "Raised Series B funding for product expansion",
+      "signal_date": "2026-06-12T12:50",
+      "confidence_score": 0.91,
+      "content_hash": "14f4e5d414c88159ea3c382b584a6885e42dcfe7938dcec4e41c8fd7f19cf1b3",
+      "raw_payload": {},
+      "is_active": true,
+      "is_duplicate": false,
+      "created_at": "2026-06-12T12:51:14.578Z"
+    },
+    {
+      "id": "ec1f33a4-92b4-47a8-ad13-a45186a1ac1c",
+      "company_id": "577bfcfa-908d-4014-a014-f35ea5dc2b04",
+      "signal_type": "EXPANSION_SIGNAL",
+      "signal_source": "news_api",
+      "signal_text": "India expansion with new office announcement in Bangalore",
+      "signal_date": "2026-06-12T12:50",
+      "confidence_score": 0.9,
+      "content_hash": "056fc90f725cfdab4b46993ae043bee8161897d96baa2f459c15385d7cafb04a",
+      "raw_payload": {},
+      "is_active": true,
+      "is_duplicate": false,
+      "created_at": "2026-06-12T12:51:15.168Z"
+    },
+    {
+      "id": "8230661c-2093-458c-bed4-9008e54055ba",
+      "company_id": "dff29bf7-8ddd-46a3-a8a9-2f4e338913f0",
+      "signal_type": "EXPANSION_SIGNAL",
+      "signal_source": "news_api",
+      "signal_text": "South India expansion - opened office in Vizag",
+      "signal_date": "2026-06-12T12:50",
+      "confidence_score": 0.89,
+      "content_hash": "a819f41c046c3b0f780e79da862f0bf25240a8e74efae7a5de7a0e9d86e9959b",
+      "raw_payload": {},
+      "is_active": true,
+      "is_duplicate": false,
+      "created_at": "2026-06-12T12:51:15.188Z"
+    },
+    {
+      "id": "a386ff5c-5584-4e14-8ccc-4297100bc6d9",
+      "company_id": "8cc17685-403b-49a3-88b5-9ee3741317ce",
+      "signal_type": "EXPANSION_SIGNAL",
+      "signal_source": "news_api",
+      "signal_text": "Kolkata expansion - India launch of new regional office",
+      "signal_date": "2026-06-12T12:50",
+      "confidence_score": 0.87,
+      "content_hash": "1ee82289ee31d11cab4baa6baa5f60715d9e026a4196a1a6205efe9145b693a8",
+      "raw_payload": {},
+      "is_active": true,
+      "is_duplicate": false,
+      "created_at": "2026-06-12T12:51:15.216Z"
+    },
+    {
+      "id": "7cb181da-186e-4897-8858-2b9294ddccb3",
+      "company_id": "1433f916-692d-4964-ba09-b1f38176784c",
+      "signal_type": "SOCIAL_SIGNAL",
+      "signal_source": "linkedin",
+      "signal_text": "Founder post: WFH isn't working, team growing fast, looking for office space in Bangalore",
+      "signal_date": "2026-06-12T12:50",
+      "confidence_score": 0.85,
+      "content_hash": "26ce2df0e155e4dc07a2ff1a044c224592c2f51387f64463e3e3e34f5d3f360c",
+      "raw_payload": {},
+      "is_active": true,
+      "is_duplicate": false,
+      "created_at": "2026-06-12T12:51:15.246Z"
+    },
+    {
+      "id": "58e395fc-4d79-4afe-a27d-501da63f135d",
+      "company_id": "c0fbc53f-0028-402c-8b60-eedef8600258",
+      "signal_type": "SOCIAL_SIGNAL",
+      "signal_source": "linkedin",
+      "signal_text": "HR post about need hybrid setup and office space in Bangalore",
+      "signal_date": "2026-06-12T12:50",
+      "confidence_score": 0.83,
+      "content_hash": "7e10f3c8da4bfd2751dc7c69103ce70802ab2dbb4e723feb0ee7f9c052c9a808",
+      "raw_payload": {},
+      "is_active": true,
+      "is_duplicate": false,
+      "created_at": "2026-06-12T12:51:15.271Z"
+    },
+    {
+      "id": "34cf44d2-1884-4eb6-aafa-2563ead57cfe",
+      "company_id": "50b879a5-558d-4f40-a2d0-08a185656335",
+      "signal_type": "HIRING_SIGNAL",
+      "signal_source": "career_page",
+      "signal_text": "Hiring in Bangalore - engineers and customer support, onsite",
+      "signal_date": "2026-06-12T12:51",
+      "confidence_score": 0.86,
+      "content_hash": "4d29007ff726747534e066f0934a7f483008d7b40e930311ddddebbe2acee33b",
+      "raw_payload": {},
+      "is_active": true,
+      "is_duplicate": false,
+      "created_at": "2026-06-12T12:51:15.561Z"
+    },
+    {
+      "id": "b07c7768-60c5-4aca-bd65-7e75e6be6d5f",
+      "company_id": "b0e86be6-17a1-42ff-94a0-da2174fd778e",
+      "signal_type": "HIRING_SIGNAL",
+      "signal_source": "career_page",
+      "signal_text": "Hiring in Bangalore - engineers, HR, office manager roles",
+      "signal_date": "2026-06-12T12:51",
+      "confidence_score": 0.9,
+      "content_hash": "f81b4ec33e36462b5d81070b84a14212d9c36f480dba673e210e1959f211a4cb",
+      "raw_payload": {},
+      "is_active": true,
+      "is_duplicate": false,
+      "created_at": "2026-06-12T12:51:15.591Z"
     }
   ],
   "contacts": [],
@@ -3469,31 +4637,31 @@
       "id": "b0761864-8f4d-420d-ad7e-0418523679a0",
       "company_id": "b0e86be6-17a1-42ff-94a0-da2174fd778e",
       "fit_score": 83,
-      "intent_score": 90,
+      "intent_score": 100,
       "timing_score": 100,
-      "overall_score": 89,
-      "score_reasoning": "Fit: size=60, location=100, industry=95; Intent: base=30, boost=60; Timing: 100; Hiring signal: \"hiring in bangalore\" (+20); Hiring signal: \"hiring in bangalore\" (+20); Hiring signal: \"hiring in bangalore\" (+20); Recommended: Enterprise Review",
-      "updated_at": "2026-06-12T12:30:49.645Z"
+      "overall_score": 93,
+      "score_reasoning": "Fit: size=60, location=100, industry=95; Intent: base=40, boost=80; Timing: 100; Hiring signal: \"hiring in bangalore\" (+20); Hiring signal: \"hiring in bangalore\" (+20); Hiring signal: \"hiring in bangalore\" (+20); Hiring signal: \"hiring in bangalore\" (+20); Recommended: Enterprise Review",
+      "updated_at": "2026-06-12T12:51:15.627Z"
     },
     {
       "id": "92f0ff07-df7c-4850-bb8e-84889e7baf59",
       "company_id": "1b8e5fa3-e79a-4228-8f3a-ab84cf94e029",
       "fit_score": 67,
-      "intent_score": 70,
+      "intent_score": 100,
       "timing_score": 100,
-      "overall_score": 75,
-      "score_reasoning": "Fit: size=20, location=100, industry=95; Intent: base=30, boost=40; Timing: 100; Hiring signal: \"hiring in bangalore\" (+20); Hiring signal: \"hiring in bangalore\" (+20); Recommended: Enterprise Review",
-      "updated_at": "2026-06-12T12:30:49.660Z"
+      "overall_score": 87,
+      "score_reasoning": "Fit: size=20, location=100, industry=95; Intent: base=40, boost=60; Timing: 100; Hiring signal: \"hiring in bangalore\" (+20); Hiring signal: \"hiring in bangalore\" (+20); Hiring signal: \"hiring in bangalore\" (+20); Recommended: Enterprise Review",
+      "updated_at": "2026-06-12T12:51:15.645Z"
     },
     {
       "id": "8d8b4c09-582b-4468-be08-5c4d3837622f",
       "company_id": "dfa72a04-6a90-4d11-a125-e36948de46e7",
       "fit_score": 63,
-      "intent_score": 50,
+      "intent_score": 75,
       "timing_score": 100,
-      "overall_score": 65,
-      "score_reasoning": "Fit: size=60, location=40, industry=100; Intent: base=20, boost=30; Timing: 100; Hiring signal: \"hybrid\" (+15); Hiring signal: \"hybrid\" (+15); Recommended: Enterprise Review",
-      "updated_at": "2026-06-12T12:30:49.700Z"
+      "overall_score": 75,
+      "score_reasoning": "Fit: size=60, location=40, industry=100; Intent: base=30, boost=45; Timing: 100; Hiring signal: \"hybrid\" (+15); Hiring signal: \"hybrid\" (+15); Hiring signal: \"hybrid\" (+15); Recommended: Enterprise Review",
+      "updated_at": "2026-06-12T12:51:15.659Z"
     },
     {
       "id": "994ad2aa-56d8-4708-9216-837abadf6fcc",
@@ -3502,8 +4670,8 @@
       "intent_score": 100,
       "timing_score": 100,
       "overall_score": 79,
-      "score_reasoning": "Fit: size=20, location=100, industry=15; Intent: base=20, boost=100; Timing: 100; Hiring signal: \"hiring in bangalore\" (+20); Hiring signal: \"onsite\" (+15); Hiring signal: \"hybrid\" (+15); Hiring signal: \"hiring in bangalore\" (+20); Hiring signal: \"onsite\" (+15); Hiring signal: \"hybrid\" (+15); Recommended: Enterprise Review",
-      "updated_at": "2026-06-12T12:30:49.712Z"
+      "score_reasoning": "Fit: size=20, location=100, industry=15; Intent: base=30, boost=100; Timing: 100; Hiring signal: \"hiring in bangalore\" (+20); Hiring signal: \"onsite\" (+15); Hiring signal: \"hybrid\" (+15); Hiring signal: \"hiring in bangalore\" (+20); Hiring signal: \"onsite\" (+15); Hiring signal: \"hybrid\" (+15); Hiring signal: \"hiring in bangalore\" (+20); Hiring signal: \"onsite\" (+15); Hiring signal: \"hybrid\" (+15); Recommended: Enterprise Review",
+      "updated_at": "2026-06-12T12:51:15.673Z"
     },
     {
       "id": "40407bac-0035-4c8a-a9dd-eb33877a03b5",
@@ -3512,38 +4680,38 @@
       "intent_score": 100,
       "timing_score": 100,
       "overall_score": 79,
-      "score_reasoning": "Fit: size=20, location=40, industry=100; Intent: base=20, boost=100; Timing: 100; Hiring signal: \"multiple jobs\" (+20); Hiring signal: \"onsite\" (+15); Hiring signal: \"hybrid\" (+15); Hiring signal: \"multiple jobs\" (+20); Hiring signal: \"onsite\" (+15); Hiring signal: \"hybrid\" (+15); Recommended: Enterprise Review",
-      "updated_at": "2026-06-12T12:30:49.729Z"
+      "score_reasoning": "Fit: size=20, location=40, industry=100; Intent: base=30, boost=100; Timing: 100; Hiring signal: \"multiple jobs\" (+20); Hiring signal: \"onsite\" (+15); Hiring signal: \"hybrid\" (+15); Hiring signal: \"multiple jobs\" (+20); Hiring signal: \"onsite\" (+15); Hiring signal: \"hybrid\" (+15); Hiring signal: \"multiple jobs\" (+20); Hiring signal: \"onsite\" (+15); Hiring signal: \"hybrid\" (+15); Recommended: Enterprise Review",
+      "updated_at": "2026-06-12T12:51:15.684Z"
     },
     {
       "id": "115b5061-4eae-4040-9f96-695f7fb677e0",
       "company_id": "f91f6f33-e1ef-4b11-adcf-8f7bfdfbe9b4",
       "fit_score": 67,
-      "intent_score": 70,
+      "intent_score": 100,
       "timing_score": 100,
-      "overall_score": 75,
-      "score_reasoning": "Fit: size=20, location=100, industry=95; Intent: base=30, boost=40; Timing: 100; Hiring signal: \"hiring in bangalore\" (+20); Hiring signal: \"hiring in bangalore\" (+20); Recommended: Enterprise Review",
-      "updated_at": "2026-06-12T12:30:49.742Z"
+      "overall_score": 87,
+      "score_reasoning": "Fit: size=20, location=100, industry=95; Intent: base=40, boost=60; Timing: 100; Hiring signal: \"hiring in bangalore\" (+20); Hiring signal: \"hiring in bangalore\" (+20); Hiring signal: \"hiring in bangalore\" (+20); Recommended: Enterprise Review",
+      "updated_at": "2026-06-12T12:51:15.699Z"
     },
     {
       "id": "968732cb-5240-4623-a5ca-8ec9e3db3b21",
       "company_id": "9b1ae527-3541-4091-b868-a6322f8c92c6",
       "fit_score": 83,
-      "intent_score": 80,
+      "intent_score": 100,
       "timing_score": 100,
-      "overall_score": 85,
-      "score_reasoning": "Fit: size=60, location=100, industry=95; Intent: base=30, boost=50; Timing: 100; Funding signal: \"series b\" (+25); Funding signal: \"series b\" (+25); Recommended: Enterprise Review",
-      "updated_at": "2026-06-12T12:30:49.761Z"
+      "overall_score": 93,
+      "score_reasoning": "Fit: size=60, location=100, industry=95; Intent: base=40, boost=75; Timing: 100; Funding signal: \"series b\" (+25); Funding signal: \"series b\" (+25); Funding signal: \"series b\" (+25); Recommended: Enterprise Review",
+      "updated_at": "2026-06-12T12:51:15.710Z"
     },
     {
       "id": "45fae367-afc7-4698-a877-12c03845bfc6",
       "company_id": "0128f704-71c3-4306-aa81-df667df053bd",
       "fit_score": 96,
-      "intent_score": 80,
+      "intent_score": 100,
       "timing_score": 100,
-      "overall_score": 90,
-      "score_reasoning": "Fit: size=90, location=100, industry=100; Intent: base=30, boost=50; Timing: 100; Funding signal: \"series b\" (+25); Funding signal: \"series b\" (+25); Recommended: Enterprise Review",
-      "updated_at": "2026-06-12T12:30:49.777Z"
+      "overall_score": 98,
+      "score_reasoning": "Fit: size=90, location=100, industry=100; Intent: base=40, boost=75; Timing: 100; Funding signal: \"series b\" (+25); Funding signal: \"series b\" (+25); Funding signal: \"series b\" (+25); Recommended: Enterprise Review",
+      "updated_at": "2026-06-12T12:51:15.723Z"
     },
     {
       "id": "bac46bf9-65be-4a82-9b6f-d8019423109e",
@@ -3553,7 +4721,7 @@
       "timing_score": 100,
       "overall_score": 59,
       "score_reasoning": "Fit: size=100, location=100, industry=50; Intent: base=10, boost=0; Timing: 100; Recommended: Managed Office",
-      "updated_at": "2026-06-12T12:30:49.791Z"
+      "updated_at": "2026-06-12T12:51:15.732Z"
     },
     {
       "id": "2f20bb4c-8258-4d2a-92b8-35b0b85ea698",
@@ -3563,7 +4731,7 @@
       "timing_score": 0,
       "overall_score": 39,
       "score_reasoning": "Fit: size=100, location=100, industry=50; Intent: base=10, boost=0; Timing: 0; Ignored old funding signal (>90 days); Recommended: Managed Office",
-      "updated_at": "2026-06-12T12:30:49.819Z"
+      "updated_at": "2026-06-12T12:51:15.744Z"
     },
     {
       "id": "dff51af5-6bb6-448e-9635-63e56aecd63a",
@@ -3573,7 +4741,7 @@
       "timing_score": 50,
       "overall_score": 49,
       "score_reasoning": "Fit: size=100, location=100, industry=50; Intent: base=10, boost=0; Timing: 50; Recommended: Managed Office",
-      "updated_at": "2026-06-12T12:30:49.838Z"
+      "updated_at": "2026-06-12T12:51:15.757Z"
     },
     {
       "id": "eea96681-b3ab-4499-8051-e677c8f67773",
@@ -3583,7 +4751,7 @@
       "timing_score": 80,
       "overall_score": 55,
       "score_reasoning": "Fit: size=100, location=100, industry=50; Intent: base=10, boost=0; Timing: 80; Recommended: Managed Office",
-      "updated_at": "2026-06-12T12:30:49.860Z"
+      "updated_at": "2026-06-12T12:51:15.769Z"
     },
     {
       "id": "7b80fc72-2566-4744-9182-69eb5c7b29d3",
@@ -3593,7 +4761,7 @@
       "timing_score": 50,
       "overall_score": 49,
       "score_reasoning": "Fit: size=100, location=100, industry=50; Intent: base=10, boost=0; Timing: 50; Recommended: Managed Office",
-      "updated_at": "2026-06-12T12:30:49.878Z"
+      "updated_at": "2026-06-12T12:51:15.783Z"
     },
     {
       "id": "0ee9ec56-c66e-4442-8b32-13dc6fb659a5",
@@ -3603,7 +4771,7 @@
       "timing_score": 100,
       "overall_score": 63,
       "score_reasoning": "Fit: size=100, location=100, industry=50; Intent: base=20, boost=0; Timing: 100; Recommended: Managed Office",
-      "updated_at": "2026-06-12T12:30:49.891Z"
+      "updated_at": "2026-06-12T12:51:15.796Z"
     },
     {
       "id": "87dc0593-fdbe-4324-93bb-a92b6cf88b68",
@@ -3613,7 +4781,7 @@
       "timing_score": 80,
       "overall_score": 55,
       "score_reasoning": "Fit: size=100, location=100, industry=50; Intent: base=10, boost=0; Timing: 80; Recommended: Managed Office",
-      "updated_at": "2026-06-12T12:30:49.917Z"
+      "updated_at": "2026-06-12T12:51:15.809Z"
     },
     {
       "id": "e90a8ac2-20b3-4dc3-b7ea-af154691b4c5",
@@ -3623,7 +4791,7 @@
       "timing_score": 25,
       "overall_score": 44,
       "score_reasoning": "Fit: size=100, location=100, industry=50; Intent: base=10, boost=0; Timing: 25; Recommended: Managed Office",
-      "updated_at": "2026-06-12T12:30:49.932Z"
+      "updated_at": "2026-06-12T12:51:15.818Z"
     },
     {
       "id": "9b0ce305-7fcb-4bee-bd1c-6091b7c83f1b",
@@ -3633,7 +4801,7 @@
       "timing_score": 25,
       "overall_score": 44,
       "score_reasoning": "Fit: size=100, location=100, industry=50; Intent: base=10, boost=0; Timing: 25; Recommended: Managed Office",
-      "updated_at": "2026-06-12T12:30:49.943Z"
+      "updated_at": "2026-06-12T12:51:15.832Z"
     },
     {
       "id": "16e5ab81-4203-481f-9feb-a4312cdc1a57",
@@ -3643,7 +4811,7 @@
       "timing_score": 0,
       "overall_score": 39,
       "score_reasoning": "Fit: size=100, location=100, industry=50; Intent: base=10, boost=0; Timing: 0; Recommended: Managed Office",
-      "updated_at": "2026-06-12T12:30:49.969Z"
+      "updated_at": "2026-06-12T12:51:15.844Z"
     },
     {
       "id": "fd16184f-0bc4-4af6-a636-a572016cba20",
@@ -3653,7 +4821,7 @@
       "timing_score": 50,
       "overall_score": 49,
       "score_reasoning": "Fit: size=100, location=100, industry=50; Intent: base=10, boost=0; Timing: 50; Recommended: Managed Office",
-      "updated_at": "2026-06-12T12:30:49.992Z"
+      "updated_at": "2026-06-12T12:51:15.857Z"
     },
     {
       "id": "9cfb6870-3af4-4d74-8dd7-42ec06f2e35c",
@@ -3663,7 +4831,7 @@
       "timing_score": 50,
       "overall_score": 49,
       "score_reasoning": "Fit: size=100, location=100, industry=50; Intent: base=10, boost=0; Timing: 50; Recommended: Managed Office",
-      "updated_at": "2026-06-12T12:30:50.008Z"
+      "updated_at": "2026-06-12T12:51:15.870Z"
     },
     {
       "id": "5995a00e-fde9-4d31-80c1-02a453ea2e97",
@@ -3673,7 +4841,7 @@
       "timing_score": 0,
       "overall_score": 43,
       "score_reasoning": "Fit: size=100, location=100, industry=50; Intent: base=20, boost=0; Timing: 0; Recommended: Managed Office",
-      "updated_at": "2026-06-12T12:30:50.030Z"
+      "updated_at": "2026-06-12T12:51:15.881Z"
     },
     {
       "id": "cca6c2a8-0814-486e-8ad0-1ed6bf5d4a40",
@@ -3683,7 +4851,7 @@
       "timing_score": 0,
       "overall_score": 39,
       "score_reasoning": "Fit: size=100, location=100, industry=50; Intent: base=10, boost=0; Timing: 0; Recommended: Managed Office",
-      "updated_at": "2026-06-12T12:30:50.043Z"
+      "updated_at": "2026-06-12T12:51:15.892Z"
     },
     {
       "id": "0283ec33-a818-4000-9b3e-ff5103d6df44",
@@ -3693,7 +4861,7 @@
       "timing_score": 50,
       "overall_score": 53,
       "score_reasoning": "Fit: size=100, location=100, industry=50; Intent: base=20, boost=0; Timing: 50; Recommended: Managed Office",
-      "updated_at": "2026-06-12T12:30:50.058Z"
+      "updated_at": "2026-06-12T12:51:15.903Z"
     },
     {
       "id": "affdf3c7-45dd-4e04-ba9a-43c3034039ff",
@@ -3703,7 +4871,7 @@
       "timing_score": 0,
       "overall_score": 39,
       "score_reasoning": "Fit: size=100, location=100, industry=50; Intent: base=10, boost=0; Timing: 0; Recommended: Managed Office",
-      "updated_at": "2026-06-12T12:30:50.083Z"
+      "updated_at": "2026-06-12T12:51:15.912Z"
     },
     {
       "id": "f4b97311-dfb7-48ac-a36b-6a4240157615",
@@ -3713,7 +4881,7 @@
       "timing_score": 0,
       "overall_score": 39,
       "score_reasoning": "Fit: size=100, location=100, industry=50; Intent: base=10, boost=0; Timing: 0; Recommended: Managed Office",
-      "updated_at": "2026-06-12T12:30:50.102Z"
+      "updated_at": "2026-06-12T12:51:15.927Z"
     },
     {
       "id": "ead4caf8-68db-47e0-835b-ea7d38ab2ec5",
@@ -3723,7 +4891,7 @@
       "timing_score": 0,
       "overall_score": 39,
       "score_reasoning": "Fit: size=100, location=100, industry=50; Intent: base=10, boost=0; Timing: 0; Recommended: Managed Office",
-      "updated_at": "2026-06-12T12:30:50.115Z"
+      "updated_at": "2026-06-12T12:51:15.938Z"
     },
     {
       "id": "120c4d19-256c-48dd-91c3-900f8d632728",
@@ -3733,7 +4901,7 @@
       "timing_score": 50,
       "overall_score": 49,
       "score_reasoning": "Fit: size=100, location=100, industry=50; Intent: base=10, boost=0; Timing: 50; Recommended: Managed Office",
-      "updated_at": "2026-06-12T12:30:50.129Z"
+      "updated_at": "2026-06-12T12:51:15.956Z"
     },
     {
       "id": "ebcf6856-2b6f-4173-bda9-1b1b283592b1",
@@ -3743,7 +4911,7 @@
       "timing_score": 100,
       "overall_score": 73,
       "score_reasoning": "Fit: size=100, location=100, industry=50; Intent: base=20, boost=25; Timing: 100; Funding signal: \"seed\" (+25); Recommended: Managed Office",
-      "updated_at": "2026-06-12T12:30:50.144Z"
+      "updated_at": "2026-06-12T12:51:15.972Z"
     },
     {
       "id": "d115d083-4b65-4d24-81f3-4154b1ceef96",
@@ -3753,7 +4921,7 @@
       "timing_score": 0,
       "overall_score": 39,
       "score_reasoning": "Fit: size=100, location=100, industry=50; Intent: base=10, boost=0; Timing: 0; Recommended: Managed Office",
-      "updated_at": "2026-06-12T12:30:50.157Z"
+      "updated_at": "2026-06-12T12:51:15.989Z"
     },
     {
       "id": "c621909a-10f4-4eba-99d4-4796ca2360fd",
@@ -3763,7 +4931,7 @@
       "timing_score": 100,
       "overall_score": 63,
       "score_reasoning": "Fit: size=100, location=100, industry=50; Intent: base=20, boost=0; Timing: 100; Recommended: Managed Office",
-      "updated_at": "2026-06-12T12:30:50.171Z"
+      "updated_at": "2026-06-12T12:51:16.014Z"
     },
     {
       "id": "2dfdade5-a546-47db-b3ff-d16dba75badd",
@@ -3773,7 +4941,7 @@
       "timing_score": 100,
       "overall_score": 59,
       "score_reasoning": "Fit: size=100, location=100, industry=50; Intent: base=10, boost=0; Timing: 100; Recommended: Managed Office",
-      "updated_at": "2026-06-12T12:30:50.185Z"
+      "updated_at": "2026-06-12T12:51:16.041Z"
     },
     {
       "id": "6448d9e0-411d-4d16-9407-a11603903217",
@@ -3783,7 +4951,7 @@
       "timing_score": 50,
       "overall_score": 49,
       "score_reasoning": "Fit: size=100, location=100, industry=50; Intent: base=10, boost=0; Timing: 50; Recommended: Managed Office",
-      "updated_at": "2026-06-12T12:30:50.199Z"
+      "updated_at": "2026-06-12T12:51:16.060Z"
     },
     {
       "id": "c9187a3d-ba73-47e8-ae61-db69b1067a35",
@@ -3793,7 +4961,7 @@
       "timing_score": 0,
       "overall_score": 39,
       "score_reasoning": "Fit: size=100, location=100, industry=50; Intent: base=10, boost=0; Timing: 0; Recommended: Managed Office",
-      "updated_at": "2026-06-12T12:30:50.215Z"
+      "updated_at": "2026-06-12T12:51:16.080Z"
     },
     {
       "id": "e53a7cb7-7c5e-498e-8fa4-3e04087f0156",
@@ -3803,7 +4971,7 @@
       "timing_score": 100,
       "overall_score": 59,
       "score_reasoning": "Fit: size=100, location=100, industry=50; Intent: base=10, boost=0; Timing: 100; Recommended: Managed Office",
-      "updated_at": "2026-06-12T12:30:50.228Z"
+      "updated_at": "2026-06-12T12:51:16.099Z"
     },
     {
       "id": "f845cd3e-794e-4d17-b573-6ba400f63225",
@@ -3813,7 +4981,7 @@
       "timing_score": 0,
       "overall_score": 39,
       "score_reasoning": "Fit: size=100, location=100, industry=50; Intent: base=10, boost=0; Timing: 0; Recommended: Managed Office",
-      "updated_at": "2026-06-12T12:30:50.245Z"
+      "updated_at": "2026-06-12T12:51:16.116Z"
     },
     {
       "id": "fcb4e396-9100-4254-8b6b-22f278ccde6f",
@@ -3822,8 +4990,8 @@
       "intent_score": 100,
       "timing_score": 100,
       "overall_score": 94,
-      "score_reasoning": "Fit: size=60, location=100, industry=100; Intent: base=30, boost=100; Timing: 100; Expansion signal: \"india expansion\" (+35); Expansion signal: \"new office\" (+40); Expansion signal: \"india expansion\" (+35); Expansion signal: \"new office\" (+40); Recommended: Enterprise Review",
-      "updated_at": "2026-06-12T12:30:50.262Z"
+      "score_reasoning": "Fit: size=60, location=100, industry=100; Intent: base=40, boost=100; Timing: 100; Expansion signal: \"india expansion\" (+35); Expansion signal: \"new office\" (+40); Expansion signal: \"india expansion\" (+35); Expansion signal: \"new office\" (+40); Expansion signal: \"india expansion\" (+35); Expansion signal: \"new office\" (+40); Recommended: Enterprise Review",
+      "updated_at": "2026-06-12T12:51:16.136Z"
     },
     {
       "id": "e1e2e959-d4f2-40de-8331-98bb04099617",
@@ -3832,8 +5000,8 @@
       "intent_score": 100,
       "timing_score": 100,
       "overall_score": 86,
-      "score_reasoning": "Fit: size=20, location=100, industry=85; Intent: base=30, boost=100; Timing: 100; Expansion signal: \"india expansion\" (+35); Expansion signal: \"south india\" (+35); Expansion signal: \"opened office\" (+40); Expansion signal: \"india expansion\" (+35); Expansion signal: \"south india\" (+35); Expansion signal: \"opened office\" (+40); Recommended: Enterprise Review",
-      "updated_at": "2026-06-12T12:30:50.277Z"
+      "score_reasoning": "Fit: size=20, location=100, industry=85; Intent: base=40, boost=100; Timing: 100; Expansion signal: \"india expansion\" (+35); Expansion signal: \"south india\" (+35); Expansion signal: \"opened office\" (+40); Expansion signal: \"india expansion\" (+35); Expansion signal: \"south india\" (+35); Expansion signal: \"opened office\" (+40); Expansion signal: \"india expansion\" (+35); Expansion signal: \"south india\" (+35); Expansion signal: \"opened office\" (+40); Recommended: Enterprise Review",
+      "updated_at": "2026-06-12T12:51:16.154Z"
     },
     {
       "id": "ba61e26c-7120-4829-acb7-91495522f4f2",
@@ -3842,8 +5010,8 @@
       "intent_score": 100,
       "timing_score": 100,
       "overall_score": 86,
-      "score_reasoning": "Fit: size=20, location=100, industry=85; Intent: base=20, boost=100; Timing: 100; Expansion signal: \"india launch\" (+35); Expansion signal: \"kolkata expansion\" (+35); Expansion signal: \"india launch\" (+35); Expansion signal: \"kolkata expansion\" (+35); Recommended: Enterprise Review",
-      "updated_at": "2026-06-12T12:30:50.292Z"
+      "score_reasoning": "Fit: size=20, location=100, industry=85; Intent: base=30, boost=100; Timing: 100; Expansion signal: \"india launch\" (+35); Expansion signal: \"kolkata expansion\" (+35); Expansion signal: \"india launch\" (+35); Expansion signal: \"kolkata expansion\" (+35); Expansion signal: \"india launch\" (+35); Expansion signal: \"kolkata expansion\" (+35); Recommended: Enterprise Review",
+      "updated_at": "2026-06-12T12:51:16.175Z"
     },
     {
       "id": "5a607900-9573-4bc8-b20a-7338b765a040",
@@ -3852,18 +5020,18 @@
       "intent_score": 100,
       "timing_score": 100,
       "overall_score": 94,
-      "score_reasoning": "Fit: size=60, location=100, industry=100; Intent: base=30, boost=100; Timing: 100; Social signal: \"looking for office\" (+40); Social signal: \"wfh isn't working\" (+40); Social signal: \"team growing\" (+30); Social signal: \"looking for office\" (+40); Social signal: \"wfh isn't working\" (+40); Social signal: \"team growing\" (+30); Recommended: Enterprise Review",
-      "updated_at": "2026-06-12T12:30:50.308Z"
+      "score_reasoning": "Fit: size=60, location=100, industry=100; Intent: base=40, boost=100; Timing: 100; Social signal: \"looking for office\" (+40); Social signal: \"wfh isn't working\" (+40); Social signal: \"team growing\" (+30); Social signal: \"looking for office\" (+40); Social signal: \"wfh isn't working\" (+40); Social signal: \"team growing\" (+30); Social signal: \"looking for office\" (+40); Social signal: \"wfh isn't working\" (+40); Social signal: \"team growing\" (+30); Recommended: Enterprise Review",
+      "updated_at": "2026-06-12T12:51:16.192Z"
     },
     {
       "id": "c365fa6b-62a7-4f9f-9c74-cc4f115d5e29",
       "company_id": "c0fbc53f-0028-402c-8b60-eedef8600258",
       "fit_score": 67,
-      "intent_score": 90,
+      "intent_score": 100,
       "timing_score": 100,
-      "overall_score": 83,
-      "score_reasoning": "Fit: size=20, location=100, industry=95; Intent: base=30, boost=60; Timing: 100; Social signal: \"hybrid setup\" (+30); Social signal: \"hybrid setup\" (+30); Recommended: Enterprise Review",
-      "updated_at": "2026-06-12T12:30:50.323Z"
+      "overall_score": 87,
+      "score_reasoning": "Fit: size=20, location=100, industry=95; Intent: base=40, boost=90; Timing: 100; Social signal: \"hybrid setup\" (+30); Social signal: \"hybrid setup\" (+30); Social signal: \"hybrid setup\" (+30); Recommended: Enterprise Review",
+      "updated_at": "2026-06-12T12:51:16.209Z"
     },
     {
       "id": "f9f9168e-ad25-4938-b2d2-6818d63e40d3",
@@ -3872,8 +5040,8 @@
       "intent_score": 100,
       "timing_score": 100,
       "overall_score": 93,
-      "score_reasoning": "Fit: size=60, location=100, industry=95; Intent: base=30, boost=70; Timing: 100; Hiring signal: \"hiring in bangalore\" (+20); Hiring signal: \"onsite\" (+15); Hiring signal: \"hiring in bangalore\" (+20); Hiring signal: \"onsite\" (+15); Recommended: Enterprise Review",
-      "updated_at": "2026-06-12T12:30:50.340Z"
+      "score_reasoning": "Fit: size=60, location=100, industry=95; Intent: base=40, boost=100; Timing: 100; Hiring signal: \"hiring in bangalore\" (+20); Hiring signal: \"onsite\" (+15); Hiring signal: \"hiring in bangalore\" (+20); Hiring signal: \"onsite\" (+15); Hiring signal: \"hiring in bangalore\" (+20); Hiring signal: \"onsite\" (+15); Recommended: Enterprise Review",
+      "updated_at": "2026-06-12T12:51:16.228Z"
     }
   ],
   "crm_records": [
@@ -3991,6 +5159,15 @@
       "zoho_lead_id": "ZOHO-1781267450483-xxhi0t",
       "status": "synced",
       "last_updated": "2026-06-12T12:30:50.485Z",
+      "retry_count": 0,
+      "last_error": null
+    },
+    {
+      "id": "5f9635b2-e781-4eb6-9356-cb78cfa01c44",
+      "company_id": "dfa72a04-6a90-4d11-a125-e36948de46e7",
+      "zoho_lead_id": "ZOHO-1781268676249-ppkvnx",
+      "status": "synced",
+      "last_updated": "2026-06-12T12:51:16.253Z",
       "retry_count": 0,
       "last_error": null
     }
@@ -4177,6 +5354,20 @@
       "ai_confidence": 0.65,
       "requires_human_review": true,
       "created_at": "2026-06-12T12:30:50.422Z"
+    },
+    {
+      "id": "61ce0c23-4cef-42af-8907-74e82b00bfce",
+      "company_id": "dfa72a04-6a90-4d11-a125-e36948de46e7",
+      "recommended_product": "Enterprise Review",
+      "outreach_angle": "Growing teams need flexible workspace without long-term lease commitments",
+      "generated_message": "{\"subject\":\"Darwinbox — workspace solution for your Hyderabad team\",\"personalization\":\"I noticed Hiring in Hyderabad - HR teams and operations, hybrid setup and thought away.center could support Darwinbox's workspace needs.\",\"pain_point\":\"Growing teams need flexible workspace without long-term lease commitments\",\"recommended_product\":\"Enterprise Review\",\"cta\":\"Would you be open to a 15-minute call to explore workspace options?\",\"confidence\":0.65}",
+      "subject": "Darwinbox — workspace solution for your Hyderabad team",
+      "personalization": "I noticed Hiring in Hyderabad - HR teams and operations, hybrid setup and thought away.center could support Darwinbox's workspace needs.",
+      "pain_point": "Growing teams need flexible workspace without long-term lease commitments",
+      "cta": "Would you be open to a 15-minute call to explore workspace options?",
+      "ai_confidence": 0.65,
+      "requires_human_review": true,
+      "created_at": "2026-06-12T12:51:16.241Z"
     }
   ],
   "conversions": [],
@@ -4219,11 +5410,24 @@
       },
       "ip_address": null,
       "created_at": "2026-06-12T12:30:50.511Z"
+    },
+    {
+      "id": "0cab1ebb-b08b-4bed-8c08-e7c2bc071707",
+      "action": "scheduler_trigger",
+      "entity_type": "scheduler",
+      "entity_id": null,
+      "details": {
+        "success": true,
+        "duration": 46188,
+        "trigger_type": "manual"
+      },
+      "ip_address": null,
+      "created_at": "2026-06-12T12:51:16.283Z"
     }
   ],
   "settings": {
     "signal_collection_cron": "0 */6 * * *",
-    "last_run": "2026-06-12T12:30:01.181Z",
+    "last_run": "2026-06-12T12:50:30.088Z",
     "last_run_status": "success",
     "fit_weight": 0.4,
     "intent_weight": 0.4,
