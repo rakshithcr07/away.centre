@@ -8,8 +8,8 @@ interface KeyValueProps {
 export function KeyValue({ label, value }: KeyValueProps) {
   return (
     <div>
-      <p className="text-xs text-gray-500">{label}</p>
-      <div className="text-gray-200 text-sm mt-0.5">{value ?? <span className="text-gray-400">—</span>}</div>
+      <p className="text-xs text-text-secondary font-medium">{label}</p>
+      <div className="text-text-primary text-sm mt-0.5 font-semibold">{value ?? <span className="text-text-secondary/60">—</span>}</div>
     </div>
   );
 }

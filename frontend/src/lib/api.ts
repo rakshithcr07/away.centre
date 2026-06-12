@@ -14,7 +14,7 @@ async function fetchApi<T>(path: string, options?: RequestInit): Promise<T> {
       'x-user-role': 'admin',
       ...options?.headers,
     },
-    next: { revalidate: 30 },
+    cache: 'no-store',
   });
 
   if (!res.ok) {

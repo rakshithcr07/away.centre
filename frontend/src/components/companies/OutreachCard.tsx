@@ -22,12 +22,12 @@ export function OutreachCard({ outreach }: OutreachCardProps) {
         <KeyValue label="Subject" value={outreach.subject} />
         <KeyValue
           label="Recommended Product"
-          value={<span className="text-away-400 font-medium">{outreach.recommended_product}</span>}
+          value={<span className="text-away font-semibold">{outreach.recommended_product}</span>}
         />
-        <KeyValue label="Pain Point" value={<span className="text-gray-300">{outreach.pain_point}</span>} />
-        <KeyValue label="Message" value={<span className="text-gray-300">{outreach.personalization}</span>} />
-        <KeyValue label="CTA" value={<span className="text-gray-300">{outreach.cta}</span>} />
-        <p className="text-xs text-gray-500">
+        <KeyValue label="Pain Point" value={<span className="text-text-primary">{outreach.pain_point}</span>} />
+        <KeyValue label="Message" value={<span className="text-text-primary">{outreach.personalization}</span>} />
+        <KeyValue label="CTA" value={<span className="text-text-primary">{outreach.cta}</span>} />
+        <p className="text-xs text-text-secondary font-medium">
           AI Confidence: {formatConfidence(outreach.ai_confidence)}
         </p>
       </div>

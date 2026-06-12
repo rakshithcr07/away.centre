@@ -12,27 +12,27 @@ export function ScoreBreakdown({ score }: ScoreBreakdownProps) {
     <Card>
       <SectionTitle title="Scores" />
       {!score ? (
-        <p className="text-gray-500">Not scored yet</p>
+        <p className="text-text-secondary">Not scored yet</p>
       ) : (
         <div className="space-y-3">
           <div className="flex justify-between items-center">
-            <span className="text-gray-400">Overall</span>
+            <span className="text-text-secondary font-medium">Overall</span>
             <ScoreValue score={score.overall_score} size="lg" />
           </div>
           <div className="flex justify-between">
-            <span className="text-gray-400">Intent</span>
+            <span className="text-text-secondary font-medium">Intent</span>
             <ScoreValue score={score.intent_score} />
           </div>
           <div className="flex justify-between">
-            <span className="text-gray-400">Fit</span>
+            <span className="text-text-secondary font-medium">Fit</span>
             <ScoreValue score={score.fit_score} />
           </div>
           <div className="flex justify-between">
-            <span className="text-gray-400">Timing</span>
+            <span className="text-text-secondary font-medium">Timing</span>
             <ScoreValue score={score.timing_score} />
           </div>
           {score.score_reasoning && (
-            <p className="text-xs text-gray-500 mt-4 border-t border-surface-border pt-3">
+            <p className="text-xs text-text-secondary mt-4 border-t border-border pt-3">
               {score.score_reasoning}
             </p>
           )}

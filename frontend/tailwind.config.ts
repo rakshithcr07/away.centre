@@ -27,7 +27,7 @@ const config: Config = {
         },
         text: {
           primary: '#1E1E1E',
-          secondary: '#6F6F6F',
+          secondary: '#4A4A4A',
         },
         border: {
           DEFAULT: '#D8D2CC',
