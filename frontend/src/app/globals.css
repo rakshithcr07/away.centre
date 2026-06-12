@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@layer base {
+  body {
+    @apply bg-background text-text-primary antialiased;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-white border border-border rounded-2xl p-6 hover:shadow-sm transition-shadow duration-200;
+  }
+
+  .card-soft {
+    @apply bg-background-soft border border-border rounded-2xl p-6;
+  }
+
+  .btn-primary {
+    @apply bg-away hover:bg-away-600 text-white font-medium px-6 py-3 rounded-2xl transition-all duration-200;
+  }
+
+  .btn-secondary {
+    @apply bg-white hover:bg-background-soft text-text-primary font-medium px-6 py-3 rounded-2xl border border-border transition-all duration-200;
+  }
+
+  .badge {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-medium;
+  }
+
+  .badge-hiring {
+    @apply badge bg-away-50 text-away;
+  }
+
+  .badge-funding {
+    @apply badge bg-emerald-50 text-emerald-600;
+  }
+
+  .badge-social {
+    @apply badge bg-purple-50 text-purple-600;
+  }
+
+  .badge-expansion {
+    @apply badge bg-amber-50 text-amber-600;
+  }
+
+  .badge-intent {
+    @apply badge bg-away text-white;
+  }
+
+  .badge-neutral {
+    @apply badge bg-gray-100 text-gray-600;
+  }
+
+  .score-high {
+    @apply text-away font-semibold;
+  }
+
+  .score-medium {
+    @apply text-amber-600 font-semibold;
+  }
+
+  .score-low {
+    @apply text-gray-500 font-semibold;
+  }
+
+  .section-title {
+    @apply text-3xl font-bold text-text-primary tracking-tight;
+  }
+
+  .hero-heading {
+    @apply text-6xl md:text-7xl font-bold text-away tracking-tight leading-tight;
+  }
+
+  .hero-subheading {
+    @apply text-xl text-text-secondary max-w-3xl;
+  }
+
+  .nav-height {
+    @apply h-20;
+  }
+}

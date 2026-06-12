@@ -1,0 +1,23 @@
+{
+  "name": "away-intelligence",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Away Intelligence - Marketing Intelligence and Workspace Intent Platform",
+  "workspaces": [
+    "backend",
+    "frontend",
+    "shared"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev -w backend\" \"npm run dev -w frontend\"",
+    "build": "npm run build -w shared && npm run build -w backend && npm run build -w frontend",
+    "test": "npm run test -w backend",
+    "db:migrate": "npm run db:migrate -w backend",
+    "db:seed": "npm run db:seed -w backend",
+    "worker": "npm run worker -w backend",
+    "scheduler": "npm run scheduler -w backend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
