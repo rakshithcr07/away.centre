@@ -49,7 +49,7 @@ export async function checkCareerPage(websiteUrl: string): Promise<CareerCheckRe
       logger.info(`Playwright: navigating to detected careers page: ${careerUrl}`);
       await page.goto(careerUrl, { waitUntil: 'domcontentloaded', timeout: 5000 });
 
-      const pageText = await page.evaluate(() => document.body.innerText || '');
+      const pageText = await page.locator('body').innerText({ timeout: 5000 }).catch(() => '');
       const hiringKeywords = [
         'open role', 'join our team', 'we are hiring', 'current opening', 'apply now',
         'software engineer', 'office manager', 'sales representative', 'customer support',

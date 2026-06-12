@@ -52,12 +52,12 @@
       "employee_count": 2500,
       "linkedin_url": null,
       "country": "India",
-      "hiring_count": 4,
+      "hiring_count": 5,
       "is_active": true,
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T06:34:53.241Z",
-      "updated_at": "2026-06-12T09:30:51.961Z"
+      "updated_at": "2026-06-12T10:30:50.053Z"
     },
     {
       "id": "6c8b5c7d-f7ee-4872-a474-2438fe517f33",
@@ -69,12 +69,12 @@
       "employee_count": 700,
       "linkedin_url": null,
       "country": "India",
-      "hiring_count": 3,
+      "hiring_count": 4,
       "is_active": true,
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T06:34:53.256Z",
-      "updated_at": "2026-06-12T09:30:50.422Z"
+      "updated_at": "2026-06-12T10:30:50.349Z"
     },
     {
       "id": "350db684-eddd-4f61-a804-740e0e82f0ea",
@@ -86,12 +86,12 @@
       "employee_count": 2500,
       "linkedin_url": null,
       "country": "India",
-      "hiring_count": 3,
+      "hiring_count": 4,
       "is_active": true,
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T06:34:53.269Z",
-      "updated_at": "2026-06-12T09:30:50.478Z"
+      "updated_at": "2026-06-12T10:30:50.797Z"
     },
     {
       "id": "e2155e48-e0df-42da-ba97-747098ea3550",
@@ -103,12 +103,12 @@
       "employee_count": 5000,
       "linkedin_url": null,
       "country": "India",
-      "hiring_count": 3,
+      "hiring_count": 4,
       "is_active": true,
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T06:34:53.284Z",
-      "updated_at": "2026-06-12T09:30:50.532Z"
+      "updated_at": "2026-06-12T10:30:51.191Z"
     },
     {
       "id": "1cf84c6b-5866-4c98-9047-91719c81ac65",
@@ -120,12 +120,12 @@
       "employee_count": 2000,
       "linkedin_url": null,
       "country": "India",
-      "hiring_count": 4,
+      "hiring_count": 5,
       "is_active": true,
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T06:34:53.300Z",
-      "updated_at": "2026-06-12T09:30:51.995Z"
+      "updated_at": "2026-06-12T10:30:51.427Z"
     },
     {
       "id": "d18941bb-8298-4e96-b315-1ae7fa5b1c3a",
@@ -142,7 +142,7 @@
       "is_remote_only": false,
       "is_staffing_agency": false,
       "created_at": "2026-06-12T06:34:53.315Z",
-      "updated_at": "2026-06-12T09:30:52.038Z"
+      "updated_at": "2026-06-12T10:30:51.536Z"
     },
     {
       "id": "fc31591e-a069-4f5c-8b93-bae51dfc4bc2",
@@ -7148,6 +7148,978 @@
       },
       "processed": true,
       "created_at": "2026-06-12T09:30:50.305Z"
+    },
+    {
+      "id": "38586403-5b27-4064-b568-81a6275d8926",
+      "source": "wellfound",
+      "raw_payload": {
+        "source": "wellfound",
+        "companyName": "Razorpay",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Hiring in Bangalore - 15 engineering roles, office manager, HR team",
+        "signalDate": "2026-06-12T10:30",
+        "confidenceScore": 0.92,
+        "website": "https://razorpay.com",
+        "city": "Bangalore",
+        "industry": "Fintech",
+        "employeeCount": 2500
+      },
+      "processed": true,
+      "created_at": "2026-06-12T10:30:01.587Z"
+    },
+    {
+      "id": "22e23ee6-0a97-46f2-8e9e-c064e117c3e7",
+      "source": "wellfound",
+      "raw_payload": {
+        "source": "wellfound",
+        "companyName": "Darwinbox",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Hiring in Hyderabad - HR teams and operations, hybrid setup",
+        "signalDate": "2026-06-12T10:30",
+        "confidenceScore": 0.84,
+        "website": "https://darwinbox.com",
+        "city": "Hyderabad",
+        "industry": "SaaS",
+        "employeeCount": 700
+      },
+      "processed": true,
+      "created_at": "2026-06-12T10:30:01.613Z"
+    },
+    {
+      "id": "33ddb5f5-6dd0-42dd-ab90-fc6f1df3cf60",
+      "source": "wellfound",
+      "raw_payload": {
+        "source": "wellfound",
+        "companyName": "Ather Energy",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Hiring in Bangalore - operations teams, onsite hybrid",
+        "signalDate": "2026-06-12T10:30",
+        "confidenceScore": 0.85,
+        "website": "https://atherenergy.com",
+        "city": "Bangalore",
+        "industry": "Manufacturing",
+        "employeeCount": 2500
+      },
+      "processed": true,
+      "created_at": "2026-06-12T10:30:01.671Z"
+    },
+    {
+      "id": "93e3269f-1b12-4674-81be-332302936e70",
+      "source": "google_jobs",
+      "raw_payload": {
+        "source": "google_jobs",
+        "companyName": "Freshworks",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Hiring in Chennai - multiple jobs posted for onsite hybrid roles",
+        "signalDate": "2026-06-12T10:30",
+        "confidenceScore": 0.87,
+        "website": "https://freshworks.com",
+        "city": "Chennai",
+        "industry": "SaaS",
+        "employeeCount": 5000
+      },
+      "processed": true,
+      "created_at": "2026-06-12T10:30:01.695Z"
+    },
+    {
+      "id": "5c2db4f8-1530-4c51-b3e6-019e5b08ed30",
+      "source": "google_jobs",
+      "raw_payload": {
+        "source": "google_jobs",
+        "companyName": "Navi Technologies",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Hiring in Bangalore - multiple engineering roles posted",
+        "signalDate": "2026-06-12T10:30",
+        "confidenceScore": 0.88,
+        "website": "https://navi.com",
+        "city": "Bangalore",
+        "industry": "Fintech",
+        "employeeCount": 2000
+      },
+      "processed": true,
+      "created_at": "2026-06-12T10:30:01.720Z"
+    },
+    {
+      "id": "c3a9b20e-04c7-4e29-9255-e3509e990925",
+      "source": "crunchbase",
+      "raw_payload": {
+        "source": "crunchbase",
+        "companyName": "Juspay",
+        "signalType": "FUNDING_SIGNAL",
+        "signalText": "Raised Series B expansion capital for India growth",
+        "signalDate": "2026-06-12T10:30",
+        "confidenceScore": 0.88,
+        "website": "https://juspay.in",
+        "city": "Bangalore",
+        "industry": "Fintech",
+        "employeeCount": 400
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:01.740Z"
+    },
+    {
+      "id": "34bf24ff-e644-4e23-984d-3a14a7ca8d44",
+      "source": "crunchbase",
+      "raw_payload": {
+        "source": "crunchbase",
+        "companyName": "Hasura",
+        "signalType": "FUNDING_SIGNAL",
+        "signalText": "Raised Series B funding for product expansion",
+        "signalDate": "2026-06-12T10:30",
+        "confidenceScore": 0.91,
+        "website": "https://hasura.io",
+        "city": "Bangalore",
+        "industry": "SaaS",
+        "employeeCount": 150
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:01.762Z"
+    },
+    {
+      "id": "4ae44645-6dac-4b3f-bafd-503e23b82cef",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "VB-G RAM",
+        "signalType": "FUNDING_SIGNAL",
+        "signalText": "VB-G RAM G: State to push for revised minimum wages, seek 80:20 funding model",
+        "signalDate": "2026-06-10",
+        "confidenceScore": 0.85,
+        "city": "Bangalore",
+        "website": "https://vb-gram.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:10.140Z"
+    },
+    {
+      "id": "0fb993aa-56eb-4a96-bda2-1c2b33d4b7b6",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "does",
+        "signalType": "FUNDING_SIGNAL",
+        "signalText": "Why does startup capital in India keep flowing back to the same cities even as innovation spreads across the country? Bengaluru continues to dominate funding, driven by deep activity in AI and a strong engineering talent base, with Mumbai close behind on th",
+        "signalDate": "2025-12-22",
+        "confidenceScore": 0.85,
+        "city": "Bangalore",
+        "website": "https://does.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:10.188Z"
+    },
+    {
+      "id": "9be25f55-1658-43fa-8546-0e8b889da0ba",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "AHEAD to",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "AHEAD to launch office in Bangalore, strengthen digital transformation in S India",
+        "signalDate": "2026-06-04",
+        "confidenceScore": 0.85,
+        "city": "Bangalore",
+        "website": "https://aheadto.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:10.207Z"
+    },
+    {
+      "id": "3eb1de9c-65d3-42b3-8731-d4f9f264ed62",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Knowledge Realty",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "Knowledge Realty Trust to invest ₹700 crore to build 1.4 million sq ft office space in Bengaluru",
+        "signalDate": "2026-05-25",
+        "confidenceScore": 0.85,
+        "city": "Bangalore",
+        "website": "https://knowledgerealty.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:10.233Z"
+    },
+    {
+      "id": "64f62ded-e176-478c-af16-3127e2211965",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "AFC Furniture",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "AFC Furniture Solutions targets Karnataka expansion amid rising GCC activity and office space demand across Bengaluru",
+        "signalDate": "2026-06-06",
+        "confidenceScore": 0.85,
+        "city": "Bangalore",
+        "website": "https://afcfurniture.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:10.249Z"
+    },
+    {
+      "id": "503cee5a-dabd-4d1d-8d40-11dbd3efeb11",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "SBM Offshore",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "SBM Offshore strengthens India commitment with new Bengaluru office, advancing global engineering and digital capabilities",
+        "signalDate": "2026-05-27",
+        "confidenceScore": 0.85,
+        "city": "Bangalore",
+        "website": "https://sbmoffshore.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:10.271Z"
+    },
+    {
+      "id": "6ea92c46-c6eb-4ab7-b952-ffc3be5c1479",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Zomato",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "Zomato expands footprint: Leases 1.5 lakh sq ft office in Bengaluru for a total rent of ₹200 crore | Real Estate News",
+        "signalDate": "2026-05-27",
+        "confidenceScore": 0.85,
+        "city": "Bangalore",
+        "website": "https://zomato.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:10.287Z"
+    },
+    {
+      "id": "699d9f84-d129-45bc-a39e-7da8ef41211e",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Bengaluru",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Bengaluru hiring surges, but salaries feel tighter. Can employees afford it?",
+        "signalDate": "2026-03-25",
+        "confidenceScore": 0.85,
+        "city": "Bangalore",
+        "website": "https://bengaluru.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:10.307Z"
+    },
+    {
+      "id": "e028a201-3b1a-4352-9119-0637a193c3b6",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "OpenAI is",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "OpenAI is Hiring for AI Deployment Engineer in Bengaluru",
+        "signalDate": "2026-03-18",
+        "confidenceScore": 0.85,
+        "city": "Bangalore",
+        "website": "https://openaiis.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:10.321Z"
+    },
+    {
+      "id": "2a518934-9110-48f4-a400-c4043f09391c",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Certinia to",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Certinia to add 100 new jobs in Bengaluru, India",
+        "signalDate": "2025-11-06",
+        "confidenceScore": 0.85,
+        "city": "Bangalore",
+        "website": "https://certiniato.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:10.337Z"
+    },
+    {
+      "id": "fbac0a83-9d94-4c0c-9c9d-5f938c7d6648",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Nod for",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "Nod for Vizag Metro hinges on State's financial clearance",
+        "signalDate": "2026-04-16",
+        "confidenceScore": 0.85,
+        "city": "Vizag",
+        "website": "https://nodfor.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:10.356Z"
+    },
+    {
+      "id": "d97a387c-7775-4687-a1de-37af9d59b6b9",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Google Cloud",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "Google Cloud AI Hub in Vizag: Andhra’s ₹1.35 lakh crore bet on India’s tech future",
+        "signalDate": "2026-04-28",
+        "confidenceScore": 0.85,
+        "city": "Vizag",
+        "website": "https://googlecloud.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:10.372Z"
+    },
+    {
+      "id": "a0186832-c912-444f-9baa-1638ff8c633f",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "After years",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "After years of losses, Centre’s support returns Vizag steel plant to profitability",
+        "signalDate": "2026-02-05",
+        "confidenceScore": 0.85,
+        "city": "Vizag",
+        "website": "https://afteryears.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:10.387Z"
+    },
+    {
+      "id": "e41518b4-3bf9-4906-be76-c691a064d032",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Cognizant breaks",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "Cognizant breaks ground on 8000-seater campus in Visakhapatnam",
+        "signalDate": "2025-12-12",
+        "confidenceScore": 0.85,
+        "city": "Vizag",
+        "website": "https://cognizantbreaks.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:10.398Z"
+    },
+    {
+      "id": "ee109194-020b-4894-8427-14382a3a9be3",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Infosys To",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "Infosys To Set Up 7K-seater Office On 20-acre Campus In Vizag",
+        "signalDate": "2026-04-30",
+        "confidenceScore": 0.85,
+        "city": "Vizag",
+        "website": "https://infosysto.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:10.414Z"
+    },
+    {
+      "id": "3e4961a0-45c7-44cf-b9f7-218254eb029e",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "37 property",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "37 property owners get compensation ccheques for road expansion in Vizag",
+        "signalDate": "2026-01-13",
+        "confidenceScore": 0.85,
+        "city": "Vizag",
+        "website": "https://37property.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:10.430Z"
+    },
+    {
+      "id": "9a5c3c56-b8d6-4fc3-9c83-4841d506ea8c",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Cognizant breaks",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "Cognizant breaks ground on 8000-seater campus in Visakhapatnam",
+        "signalDate": "2025-12-12",
+        "confidenceScore": 0.85,
+        "city": "Vizag",
+        "website": "https://cognizantbreaks.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:10.448Z"
+    },
+    {
+      "id": "08aabc2b-13fb-487b-82a7-19f8c8553690",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Our First",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "Our First AI Hub in India, Powered by a $15 Billion Investment",
+        "signalDate": "2025-10-14",
+        "confidenceScore": 0.85,
+        "city": "Vizag",
+        "website": "https://ourfirst.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:10.466Z"
+    },
+    {
+      "id": "833eb388-b3f1-4e02-9575-14dd8410d5e8",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Foundation laid",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "Foundation laid for 8,000-seat\nCognizant campus in Visakhapatnam",
+        "signalDate": "2025-12-13",
+        "confidenceScore": 0.85,
+        "city": "Vizag",
+        "website": "https://foundationlaid.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:10.481Z"
+    },
+    {
+      "id": "97ddd686-0201-45d1-bb91-6cfb3c29e4a2",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Engineering talent",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "Engineering talent finds new avenue in medtech sector in Vizag",
+        "signalDate": "2026-05-04",
+        "confidenceScore": 0.85,
+        "city": "Vizag",
+        "website": "https://engineeringtalent.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:10.499Z"
+    },
+    {
+      "id": "47678795-43f8-4dc7-83b3-e48cee86f458",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Infosys",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "Infosys plans 20-acre Vizag campus with 7,000 capacity, workforce grows to 1,900",
+        "signalDate": "2026-04-30",
+        "confidenceScore": 0.85,
+        "city": "Vizag",
+        "website": "https://infosys.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:10.522Z"
+    },
+    {
+      "id": "cbd16d81-7bb4-4481-bf0b-55b4d2b2587e",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "11 years",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "11 years on, Andhra Pradesh awaits own food testing lab",
+        "signalDate": "2025-09-22",
+        "confidenceScore": 0.85,
+        "city": "Vizag",
+        "website": "https://11years.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:10.537Z"
+    },
+    {
+      "id": "5a857fec-f8d0-4d86-af21-54b4425601ce",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "FusionStays",
+        "signalType": "FUNDING_SIGNAL",
+        "signalText": "FusionStays Raises INR 75 Lakhs in Pre-Seed Funding Led by Vruddhi Capital Kolkata, India",
+        "signalDate": "2026-03-19",
+        "confidenceScore": 0.85,
+        "city": "Kolkata",
+        "website": "https://fusionstays.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:10.552Z"
+    },
+    {
+      "id": "abb510e5-18ea-4998-b415-6d0ff9e50af3",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Tega to",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "Tega to raise Rs3.3k cr to fund Molycop deal",
+        "signalDate": "2025-09-15",
+        "confidenceScore": 0.85,
+        "city": "Kolkata",
+        "website": "https://tegato.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:10.571Z"
+    },
+    {
+      "id": "bf7b9859-caf1-49fc-8c46-e64391a8fea7",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "CIMCON Automation",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "CIMCON Automation opens Kolkata Office for East expansion",
+        "signalDate": "2026-03-11",
+        "confidenceScore": 0.85,
+        "city": "Kolkata",
+        "website": "https://cimconautomation.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:10.582Z"
+    },
+    {
+      "id": "a2c1c158-e03b-4a48-a2c5-c497b36cab8d",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Fire engulfs",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "Fire engulfs multiple floors of eight-storey government building in Kolkata",
+        "signalDate": "2026-06-10",
+        "confidenceScore": 0.85,
+        "city": "Kolkata",
+        "website": "https://fireengulfs.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:10.599Z"
+    },
+    {
+      "id": "9ddccbc8-a6e0-4618-af85-935fa96d34df",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Bengal IT",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "Bengal IT minister reviews progress of LTI Mindtree project",
+        "signalDate": "2026-01-09",
+        "confidenceScore": 0.85,
+        "city": "Kolkata",
+        "website": "https://bengalit.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:10.615Z"
+    },
+    {
+      "id": "022887b7-b906-4134-b335-c4b512b41468",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Bulldozer politics",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "Bulldozer politics reaches Bengal? TMC office razed in Kolkata's New Market area",
+        "signalDate": "2026-05-06",
+        "confidenceScore": 0.85,
+        "city": "Kolkata",
+        "website": "https://bulldozerpolitics.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:10.635Z"
+    },
+    {
+      "id": "573c3a48-9bc1-4899-9255-ce9c1669ec6d",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Schoolteacher recruitment",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "Schoolteacher recruitment a priority: Edu minister",
+        "signalDate": "2026-06-11",
+        "confidenceScore": 0.85,
+        "city": "Kolkata",
+        "website": "https://schoolteacherrecruitment.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:10.648Z"
+    },
+    {
+      "id": "fa07a851-c135-4d36-935f-deb99021d44e",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "8 lakh",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "8 lakh in Group C test today under tight security, shoe ban for candidates",
+        "signalDate": "2026-03-01",
+        "confidenceScore": 0.85,
+        "city": "Kolkata",
+        "website": "https://8lakh.com",
+        "industry": "Tech",
+        "employeeCount": 50
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:10.665Z"
+    },
+    {
+      "id": "dd09f152-dacb-43ea-9868-d1dec73f26e4",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Chargebee",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "India expansion with new office announcement in Bangalore",
+        "signalDate": "2026-06-12T10:30",
+        "confidenceScore": 0.9,
+        "website": "https://chargebee.com",
+        "city": "Bangalore",
+        "industry": "SaaS",
+        "employeeCount": 600
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:10.682Z"
+    },
+    {
+      "id": "b34cf2c3-d177-400d-87f2-f6c2da44f2c9",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Innovaccer",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "South India expansion - opened office in Vizag",
+        "signalDate": "2026-06-12T10:30",
+        "confidenceScore": 0.89,
+        "website": "https://innovaccer.com",
+        "city": "Vizag",
+        "industry": "HealthTech",
+        "employeeCount": 1500
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:10.696Z"
+    },
+    {
+      "id": "0394daff-461f-4d9c-bac6-f661c59103d0",
+      "source": "news_api",
+      "raw_payload": {
+        "source": "news_api",
+        "companyName": "Practo",
+        "signalType": "EXPANSION_SIGNAL",
+        "signalText": "Kolkata expansion - India launch of new regional office",
+        "signalDate": "2026-06-12T10:30",
+        "confidenceScore": 0.87,
+        "website": "https://practo.com",
+        "city": "Kolkata",
+        "industry": "HealthTech",
+        "employeeCount": 1800
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:10.714Z"
+    },
+    {
+      "id": "89f696e5-2793-4f49-be65-8f63627acd95",
+      "source": "linkedin",
+      "raw_payload": {
+        "source": "linkedin",
+        "companyName": "Postman",
+        "signalType": "SOCIAL_SIGNAL",
+        "signalText": "Founder post: WFH isn't working, team growing fast, looking for office space in Bangalore",
+        "signalDate": "2026-06-12T10:30",
+        "confidenceScore": 0.85,
+        "website": "https://postman.com",
+        "city": "Bangalore",
+        "industry": "SaaS",
+        "employeeCount": 800
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:10.745Z"
+    },
+    {
+      "id": "1c6be374-0842-434d-bf52-2daa47ceb3bb",
+      "source": "linkedin",
+      "raw_payload": {
+        "source": "linkedin",
+        "companyName": "Zeta",
+        "signalType": "SOCIAL_SIGNAL",
+        "signalText": "HR post about need hybrid setup and office space in Bangalore",
+        "signalDate": "2026-06-12T10:30",
+        "confidenceScore": 0.83,
+        "website": "https://zeta.tech",
+        "city": "Bangalore",
+        "industry": "Fintech",
+        "employeeCount": 1200
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:10.776Z"
+    },
+    {
+      "id": "300632e0-fed0-491b-9cb6-cf840cf5424b",
+      "source": "career_page",
+      "raw_payload": {
+        "source": "career_page",
+        "companyName": "Razorpay",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Active jobs found on website careers page: https://razorpay.com/jobs/",
+        "signalDate": "2026-06-12",
+        "confidenceScore": 0.9,
+        "website": "https://razorpay.com"
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:12.624Z"
+    },
+    {
+      "id": "8bf9c132-1fa5-4002-b33f-380451faf57f",
+      "source": "career_page",
+      "raw_payload": {
+        "source": "career_page",
+        "companyName": "Navi Technologies",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Active jobs found on website careers page: https://navi.com/careers",
+        "signalDate": "2026-06-12",
+        "confidenceScore": 0.9,
+        "website": "https://navi.com"
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:14.177Z"
+    },
+    {
+      "id": "a92429d6-03b7-4c90-bfe7-91083b20a5c2",
+      "source": "career_page",
+      "raw_payload": {
+        "source": "career_page",
+        "companyName": "Juspay",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Active jobs found on website careers page: https://juspay.in/careers",
+        "signalDate": "2026-06-12",
+        "confidenceScore": 0.9,
+        "website": "https://juspay.in"
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:15.260Z"
+    },
+    {
+      "id": "6215ab1e-4870-405f-bfa6-c56c146e9ef9",
+      "source": "career_page",
+      "raw_payload": {
+        "source": "career_page",
+        "companyName": "Hasura",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Active jobs found on website careers page: https://hasura.io/careers",
+        "signalDate": "2026-06-12",
+        "confidenceScore": 0.9,
+        "website": "https://hasura.io"
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:15.865Z"
+    },
+    {
+      "id": "5a9330bd-5651-43e2-a64f-c61ee7007a53",
+      "source": "career_page",
+      "raw_payload": {
+        "source": "career_page",
+        "companyName": "Chargebee",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Active jobs found on website careers page: https://chargebee.com/careers/",
+        "signalDate": "2026-06-12",
+        "confidenceScore": 0.9,
+        "website": "https://chargebee.com"
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:18.559Z"
+    },
+    {
+      "id": "e62c00f0-5907-4c14-9b68-bb42ab742a12",
+      "source": "career_page",
+      "raw_payload": {
+        "source": "career_page",
+        "companyName": "Innovaccer",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Active jobs found on website careers page: https://innovaccer.com/careers",
+        "signalDate": "2026-06-12",
+        "confidenceScore": 0.9,
+        "website": "https://innovaccer.com"
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:20.999Z"
+    },
+    {
+      "id": "08be57bc-10fa-4927-b129-9ed2196c044a",
+      "source": "career_page",
+      "raw_payload": {
+        "source": "career_page",
+        "companyName": "Postman",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Active jobs found on website careers page: https://postman.com/company/careers/",
+        "signalDate": "2026-06-12",
+        "confidenceScore": 0.9,
+        "website": "https://postman.com"
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:25.090Z"
+    },
+    {
+      "id": "7cf43b24-767e-4b99-9313-5593ce560af0",
+      "source": "career_page",
+      "raw_payload": {
+        "source": "career_page",
+        "companyName": "Zeta",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Active jobs found on website careers page: https://zeta.tech/in/careers",
+        "signalDate": "2026-06-12",
+        "confidenceScore": 0.9,
+        "website": "https://zeta.tech"
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:26.928Z"
+    },
+    {
+      "id": "6d7a603a-de5b-446a-b69f-77600c97b2cc",
+      "source": "career_page",
+      "raw_payload": {
+        "source": "career_page",
+        "companyName": "M2P Fintech",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Active jobs found on website careers page: https://careers.m2pfintech.com/",
+        "signalDate": "2026-06-12",
+        "confidenceScore": 0.9,
+        "website": "https://m2pfintech.com"
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:27.825Z"
+    },
+    {
+      "id": "94469d84-12fb-4c54-b975-a2fd4d546e40",
+      "source": "career_page",
+      "raw_payload": {
+        "source": "career_page",
+        "companyName": "SBM Offshore",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Active jobs found on website careers page: https://careers.sbmoffshore.com",
+        "signalDate": "2026-06-12",
+        "confidenceScore": 0.9,
+        "website": "https://sbmoffshore.com"
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:35.763Z"
+    },
+    {
+      "id": "7f99808f-a74a-4098-8e92-5b56dba5de08",
+      "source": "career_page",
+      "raw_payload": {
+        "source": "career_page",
+        "companyName": "FusionStays",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Active jobs found on website careers page: https://fusionstays.com/career",
+        "signalDate": "2026-06-12",
+        "confidenceScore": 0.9,
+        "website": "https://fusionstays.com"
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:46.245Z"
+    },
+    {
+      "id": "23dd4a4e-63cd-40ae-b318-47c9a04e6198",
+      "source": "career_page",
+      "raw_payload": {
+        "source": "career_page",
+        "companyName": "CIMCON Automation",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Active jobs found on website careers page: https://cimconautomation.com/career/",
+        "signalDate": "2026-06-12",
+        "confidenceScore": 0.9,
+        "website": "https://cimconautomation.com"
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:47.469Z"
+    },
+    {
+      "id": "904a9c4c-275b-4235-acc4-a16e004f5cd7",
+      "source": "career_page",
+      "raw_payload": {
+        "source": "career_page",
+        "companyName": "M2P Fintech",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Hiring in Bangalore - engineers and customer support, onsite",
+        "signalDate": "2026-06-12T10:30",
+        "confidenceScore": 0.86,
+        "website": "https://m2pfintech.com",
+        "city": "Bangalore",
+        "industry": "Fintech",
+        "employeeCount": 350
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:49.587Z"
+    },
+    {
+      "id": "aca561aa-8d3f-4e9e-98de-8c66f8c5c696",
+      "source": "career_page",
+      "raw_payload": {
+        "source": "career_page",
+        "companyName": "Slice",
+        "signalType": "HIRING_SIGNAL",
+        "signalText": "Hiring in Bangalore - engineers, HR, office manager roles",
+        "signalDate": "2026-06-12T10:30",
+        "confidenceScore": 0.9,
+        "website": "https://sliceit.com",
+        "city": "Bangalore",
+        "industry": "Fintech",
+        "employeeCount": 400
+      },
+      "processed": false,
+      "created_at": "2026-06-12T10:30:49.612Z"
     }
   ],
   "signals": [
@@ -8326,6 +9298,90 @@
       "is_active": true,
       "is_duplicate": false,
       "created_at": "2026-06-12T09:30:52.416Z"
+    },
+    {
+      "id": "adb27fcd-972c-4a4a-829b-29ecf9580cb1",
+      "company_id": "bf464245-f0fa-452b-8994-5d637d7e1271",
+      "signal_type": "HIRING_SIGNAL",
+      "signal_source": "wellfound",
+      "signal_text": "Hiring in Bangalore - 15 engineering roles, office manager, HR team",
+      "signal_date": "2026-06-12T10:30",
+      "confidence_score": 0.92,
+      "content_hash": "b8c4784dc0800ff4b8eab974037a4d142245f9cdf4a1bd3348e90768e88c9881",
+      "raw_payload": {},
+      "is_active": true,
+      "is_duplicate": false,
+      "created_at": "2026-06-12T10:30:50.008Z"
+    },
+    {
+      "id": "5f014497-fb02-4544-b33b-a059d816e6e6",
+      "company_id": "6c8b5c7d-f7ee-4872-a474-2438fe517f33",
+      "signal_type": "HIRING_SIGNAL",
+      "signal_source": "wellfound",
+      "signal_text": "Hiring in Hyderabad - HR teams and operations, hybrid setup",
+      "signal_date": "2026-06-12T10:30",
+      "confidence_score": 0.84,
+      "content_hash": "b70389d604c369d1aa8085b7cfab7f3e2e3b9afef0071400b07149b9c61c2abe",
+      "raw_payload": {},
+      "is_active": true,
+      "is_duplicate": false,
+      "created_at": "2026-06-12T10:30:50.292Z"
+    },
+    {
+      "id": "374b701a-4207-4db1-a357-eeb18eb0c48b",
+      "company_id": "350db684-eddd-4f61-a804-740e0e82f0ea",
+      "signal_type": "HIRING_SIGNAL",
+      "signal_source": "wellfound",
+      "signal_text": "Hiring in Bangalore - operations teams, onsite hybrid",
+      "signal_date": "2026-06-12T10:30",
+      "confidence_score": 0.85,
+      "content_hash": "6f783d1fdba85cf5b46470513564f3028642ee0ffb02f1c7c3916b7cc7e0cfd6",
+      "raw_payload": {},
+      "is_active": true,
+      "is_duplicate": false,
+      "created_at": "2026-06-12T10:30:50.732Z"
+    },
+    {
+      "id": "126431fe-f812-46b4-8277-5a69f0bcab9e",
+      "company_id": "e2155e48-e0df-42da-ba97-747098ea3550",
+      "signal_type": "HIRING_SIGNAL",
+      "signal_source": "google_jobs",
+      "signal_text": "Hiring in Chennai - multiple jobs posted for onsite hybrid roles",
+      "signal_date": "2026-06-12T10:30",
+      "confidence_score": 0.87,
+      "content_hash": "7a0033e0dc6cfc0852482b2c99b23f53e2a658186c66b793daab93e4b34032db",
+      "raw_payload": {},
+      "is_active": true,
+      "is_duplicate": false,
+      "created_at": "2026-06-12T10:30:51.166Z"
+    },
+    {
+      "id": "0df91d62-5184-45fd-b0c5-705029cb5b2a",
+      "company_id": "1cf84c6b-5866-4c98-9047-91719c81ac65",
+      "signal_type": "HIRING_SIGNAL",
+      "signal_source": "google_jobs",
+      "signal_text": "Hiring in Bangalore - multiple engineering roles posted",
+      "signal_date": "2026-06-12T10:30",
+      "confidence_score": 0.88,
+      "content_hash": "a3d55400a3a3ede554b9691c34cb899d29c7ecef29cc5e03078c531b60267534",
+      "raw_payload": {},
+      "is_active": true,
+      "is_duplicate": false,
+      "created_at": "2026-06-12T10:30:51.344Z"
+    },
+    {
+      "id": "818db43c-aea8-4e5a-ac0a-2c2ae4bab127",
+      "company_id": "d18941bb-8298-4e96-b315-1ae7fa5b1c3a",
+      "signal_type": "FUNDING_SIGNAL",
+      "signal_source": "crunchbase",
+      "signal_text": "Raised Series B expansion capital for India growth",
+      "signal_date": "2026-06-12T10:30",
+      "confidence_score": 0.88,
+      "content_hash": "94bb5a08bf638b633b262d3926b41b3513331143a5fca34f6a25d1d38dc2f32e",
+      "raw_payload": {},
+      "is_active": true,
+      "is_duplicate": false,
+      "created_at": "2026-06-12T10:30:51.582Z"
     }
   ],
   "contacts": [
@@ -10043,8 +11099,8 @@
   ],
   "settings": {
     "signal_collection_cron": "0 */1 * * *",
-    "last_run": "2026-06-12T09:30:01.686Z",
-    "last_run_status": "success",
+    "last_run": "2026-06-12T10:30:01.260Z",
+    "last_run_status": "running",
     "fit_weight": 0.3,
     "intent_weight": 0.5,
     "timing_weight": 0.2

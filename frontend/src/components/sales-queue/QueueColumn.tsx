@@ -27,8 +27,13 @@ export function QueueColumn({ title, icon: Icon, color, headerColor, items }: Qu
         <p className="text-gray-500 text-sm py-4 text-center">No items</p>
       ) : (
         <div className="space-y-3">
-          {items.map((item) => (
-            <QueueItemCard key={item.company_id} item={item} />
+          {items.map((item, index) => (
+            <QueueItemCard
+              key={item.company_id}
+              item={item}
+              rank={index + 1}
+              accentColor={headerColor}
+            />
           ))}
         </div>
       )}

@@ -41,7 +41,7 @@ export default async function CompanyDetailPage({ params }: PageProps) {
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         <SignalTimeline signals={company.signals} />
-        <ContactList contacts={company.contacts} />
+        <ContactList contacts={company.contacts} companyId={company.id} />
       </div>
     </div>
   );
