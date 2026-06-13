@@ -17,5 +17,8 @@ export function formatSignalSource(source: string): string {
 }
 
 export function formatConfidence(score: number): string {
-  return `${Math.round(Number(score) * 100)}%`;
+  const num = Number(score);
+  const percentage = num > 1 ? num : num * 100;
+  return `${Math.round(percentage)}%`;
 }
+

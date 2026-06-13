@@ -16,51 +16,69 @@ export function LeadsTable({ companies }: LeadsTableProps) {
   }
 
   return (
-    <div className="bg-white border border-border rounded-2xl overflow-hidden hover:shadow-sm transition-shadow duration-200">
+    <div className="bg-white border border-border rounded-2xl overflow-hidden hover:shadow-md transition-shadow duration-300">
       <div className="overflow-x-auto">
         <table className="w-full text-sm">
-          <thead className="sticky top-0 bg-white">
-            <tr className="border-b border-border text-text-secondary">
+          <thead className="bg-background-soft/60 border-b border-border">
+            <tr className="text-[10px] uppercase tracking-wider font-extrabold text-text-secondary">
               {['Company', 'Industry', 'City', 'Employees', 'Hiring', 'Signals', 'Intent', 'Fit', 'Timing', 'Overall', 'Product', 'CRM'].map((col) => (
-                <th key={col} className="text-left p-4 font-medium">{col}</th>
+                <th key={col} className="p-4 font-extrabold text-left">{col}</th>
               ))}
             </tr>
           </thead>
-          <tbody>
-            {companies.map((company) => (
-              <tr
-                key={company.id}
-                className="border-b border-border/50 hover:bg-background-soft transition-colors"
-              >
-                <td className="p-4">
-                  <Link href={`/companies/${company.id}`} className="font-medium text-text-primary hover:text-away">
-                    {company.name}
-                  </Link>
-                  {company.website && (
-                    <div className="mt-0.5">
-                      <ExternalLinkLabel href={company.website} />
+          <tbody className="divide-y divide-border/30">
+            {companies.map((company) => {
+              const firstLetter = company.name ? company.name.charAt(0).toUpperCase() : 'C';
+              return (
+                <tr
+                  key={company.id}
+                  className="hover:bg-background-soft/30 transition-colors group"
+                >
+                  <td className="p-4">
+                    <div className="flex items-center gap-3">
+                      <div className="w-8 h-8 rounded-full bg-away-50 text-away flex items-center justify-center font-extrabold text-xs border border-away/10 shadow-sm flex-shrink-0 group-hover:scale-105 transition-transform">
+                        {firstLetter}
+                      </div>
+                      <div>
+                        <Link href={`/companies/${company.id}`} className="font-semibold text-text-primary hover:text-away transition-colors block">
+                          {company.name}
+                        </Link>
+                        {company.website && (
+                          <div className="mt-0.5">
+                            <ExternalLinkLabel href={company.website} />
+                          </div>
+                        )}
+                      </div>
                     </div>
-                  )}
-                </td>
-                <td className="p-4 text-text-primary">{company.industry ?? '—'}</td>
-                <td className="p-4 text-text-primary">{company.city ?? '—'}</td>
-                <td className="p-4 text-text-primary">{company.employee_count?.toLocaleString() ?? '—'}</td>
-                <td className="p-4 text-text-primary">{company.hiring_count}</td>
-                <td className="p-4">
-                  <div className="flex flex-wrap gap-1">
-                    {(company.signal_types ?? []).map((type) => (
-                      <SignalBadge key={type} type={type} />
-                    ))}
-                  </div>
-                </td>
-                <td className="p-4"><ScoreValue score={company.intent_score} /></td>
-                <td className="p-4"><ScoreValue score={company.fit_score} /></td>
-                <td className="p-4"><ScoreValue score={company.timing_score} /></td>
-                <td className="p-4"><ScoreValue score={company.overall_score} size="md" /></td>
-                <td className="p-4 text-text-primary text-xs">{company.recommended_product ?? '—'}</td>
-                <td className="p-4"><CrmStatusBadge status={company.crm_status} /></td>
-              </tr>
-            ))}
+                  </td>
+                  <td className="p-4 font-medium text-text-primary">{company.industry ?? '—'}</td>
+                  <td className="p-4 font-medium text-text-secondary">{company.city ?? '—'}</td>
+                  <td className="p-4 font-mono font-medium text-text-primary">{company.employee_count?.toLocaleString() ?? '—'}</td>
+                  <td className="p-4 font-semibold text-text-secondary text-center md:text-left">{company.hiring_count}</td>
+                  <td className="p-4">
+                    <div className="flex flex-wrap gap-1 max-w-[200px]">
+                      {(company.signal_types ?? []).map((type) => (
+                        <SignalBadge key={type} type={type} />
+                      ))}
+                    </div>
+                  </td>
+                  <td className="p-4 font-bold"><ScoreValue score={company.intent_score} /></td>
+                  <td className="p-4 font-bold"><ScoreValue score={company.fit_score} /></td>
+                  <td className="p-4 font-bold"><ScoreValue score={company.timing_score} /></td>
+                  <td className="p-4 font-bold"><ScoreValue score={company.overall_score} size="md" /></td>
+                  <td className="p-4">
+                    {company.recommended_product ? (
+                      <span className="inline-flex px-2 py-0.5 text-[10px] font-bold text-away bg-away-50 border border-away/10 rounded-md">
+                        {company.recommended_product}
+                      </span>
+                    ) : (
+                      '—'
+                    )}
+                  </td>
+                  <td className="p-4"><CrmStatusBadge status={company.crm_status} /></td>
+                </tr>
+              );
+            })}
           </tbody>
         </table>
       </div>

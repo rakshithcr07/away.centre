@@ -1,4 +1,18 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect, vi } from 'vitest';
+
+vi.mock('../src/db/pool', () => ({
+  getSettings: () => ({
+    fit_weight: 0.4,
+    intent_weight: 0.4,
+    timing_weight: 0.2,
+  }),
+  query: vi.fn(),
+  pool: {
+    query: vi.fn(),
+    connect: vi.fn(),
+    end: vi.fn(),
+  },
+}));
 import {
   calculateScores,
   scoreCompanySize,

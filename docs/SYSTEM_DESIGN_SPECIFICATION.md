@@ -1,157 +1,117 @@
-# Away Intelligence: Product & System Architecture Specification
-This document outlines the product brief, system design, data strategy, scoring models, and implementation recommendations for Away Intelligence.
+# Away Intelligence: System Design Specification
+**A B2B Intent-Driven Coworking Lead Generation Platform**
 
 ---
 
 ## 1. Product Brief
+Away Center operates premium coworking spaces across multiple Indian metro cities (e.g., Bangalore, Vizag, Kolkata). Historically, sales representatives have relied on cold-calling and outbound prospecting, yielding a low conversion rate of ~2%.
 
-### What Problem Are We Solving?
-Currently, away.center's sales teams spend significant time manually prospecting for companies that need coworking spaces, private offices, managed offices, day passes, meeting rooms, event spaces, and India team setup support. By the time a company actively searches for a coworking space, competitors may already be in conversation. 
-
-Away Intelligence changes this from a **reactive search** to a **predictive signal-driven GTM model**. It identifies companies in target cities (Bangalore, Vizag, Kolkata) that are showing early signals of physical growth, hiring surges, or remote-to-hybrid transitions, enabling sales reps to contact decision-makers *before* competitors do.
-
-### Who is the User?
-*   **Sales Representative (`sales_rep`)**: Needs a prioritized list of accounts, context on *why* a company is interested (the signals), key contacts, and AI-generated email drafts to initiate immediate outreach.
-*   **Sales Manager (`sales_manager`)**: Needs pipeline visibility, conversion rates, and control over CRM syncing.
-*   **Admin (`admin`)**: Needs to tune scoring weights, schedule the collection pipelines, and review execution logs.
-
-### What is the MVP?
-A self-contained web platform that:
-1.  Runs an automated background collection pipeline to scrape and ingest public data (job boards, news, career pages).
-2.  Deduplicates, resolves, and scores companies from 0 to 100 based on Fit, Intent, and Timing.
-3.  Suggests the right workspace product (e.g., Private Office for companies with 6-30 employees) and drafts a personalized email template using GPT.
-4.  Provides a prioritized Kanban **Sales Queue** divided into:
-    *   *Immediate Outreach* (Score ≥ 75, ready to be pushed to CRM).
-    *   *Nurture* (Score 50-74, long-term tracking).
-    *   *Manual Review* (Low confidence AI generation, needs sales rep review).
-    *   *Ignored* (Excluded accounts).
-5.  Pushes hot leads automatically or manually into **Zoho Bigin CRM**.
-
-### What to Build First?
-1.  **Shared Types & Database Schema**: Set up the relational core for companies, signals, and scores.
-2.  **Mock DB & Local API Server**: Establish the local development environment using Node/Express without heavy local DB/Redis dependencies to ensure rapid prototyping.
-3.  **Core Scrapers**: Create the RSS News Scraper and the Career Page Crawler.
-4.  **Priority Sales Queue & Detail View**: Design a high-contrast web dashboard so sales reps can act on data immediately.
-
-### What NOT to Build?
-*   **A Custom CRM**: Use Zoho Bigin for deal management, pipelines, and tasks; do not build CRM functionalities internally.
-*   **Email Sending Gateway**: The system drafts and formats emails. It does not send them directly, preventing accidental spam and ensuring a "human-in-the-loop" review model.
-*   **Massive B2B Database**: Do not try to replicate ZoomInfo or Apollo; query them in real-time or via targeted scraper waterfalls.
-
-### What to Buy?
-*   **Apollo.io / People Data Labs**: For contact enrichment (emails, LinkedIn profiles, phone numbers) once a target company is flagged.
-*   **OpenAI API**: For structuring unstructured text and personalizing outreach drafts.
-*   **Hosted Database / Redis**: Neon (Serverless Postgres) and Upstash (Serverless Redis) to keep maintenance overhead near zero.
-
-### What Does Success Look Like?
-*   **50+ high-intent leads** identified per week.
-*   **50% reduction** in time spent by sales reps on manual prospecting.
-*   **20-30% higher conversion rate** on cold outreach compared to standard outbound.
+**Away Intelligence** is an automated pipeline and dashboard designed to discover, score, and transition high-intent workspace buyers. By monitoring public indicators of local corporate growth—such as hiring sprees, funding rounds, news reports of office expansion, and social posts—the platform calculates real-time intent scores. It automatically qualifies top targets, generates tailored outreach drafts using generative AI, and pipes them directly into the sales team's CRM.
 
 ---
 
-## 2. System Architecture Diagram
+## 2. Ideal Customer Profile (ICP) & Scoring Logic
 
-```
-                 ┌────────────────────────────────────────────────────────┐
-                 │                 UNSTRUCTURED PUBLIC SOURCES            │
-                 │ Google News RSS ── Playwright Crawler ── Google Jobs   │
-                 └───────────────────────────┬────────────────────────────┘
-                                             │ raw signals
-                                             ▼
- ┌────────────────────────────────────────────────────────────────────────────────────────┐
- │                              PIPELINE ORCHESTRATOR                                     │
- │ ┌──────────────────────┐   ┌─────────────────────┐   ┌──────────────┐   ┌────────────┐ │
- │ │ Company Resolver &   │ ──│ Scoring Engine      │── │ AI Outreach  │── │ CRM Sync   │ │
- │ │ Name Normalization   │   │ (Fit, Intent, Time) │   │ (GPT-4o)     │   │ Queue      │ │
- │ └──────────────────────┘   └─────────────────────┘   └──────────────┘   └────────────┘ │
- └────────────────────────┬──────────────┬───────────────┬────────────────────────┬───────┘
-                          │              │               │                        │
-                          ▼              ▼               ▼                        ▼
-                   ┌──────────────┐┌───────────┐┌──────────────────┐       ┌──────────────┐
-                   │  PostgreSQL  ││   Redis   ││   Enrichment     │       │  Zoho Bigin  │
-                   │  + pgvector  ││  (BullMQ) ││  (Apollo API)    │       │     CRM      │
-                   └──────────────┘└───────────┘└──────────────────┘       └──────────────┘
-                          ▲
-                          │ REST + API Key
-                          ▼
- ┌────────────────────────────────────────────────────────────────────────────────────────┐
- │                                   EXPRESS API SERVER                                   │
- └────────────────────────────────────────┬───────────────────────────────────────────────┘
-                                          │
-                                          ▼
- ┌────────────────────────────────────────────────────────────────────────────────────────┐
- │                                   NEXT.JS 15 FRONTEND                                  │
- │   Dashboard ─── Sales Queue ─── Company Profile ─── Leads Table ─── Settings Panel     │
- └────────────────────────────────────────────────────────────────────────────────────────┘
-```
+### Ideal Customer Profile
+* **Geography:** Companies with active operations or clear expansion plans in Bangalore, Vizag, or Kolkata.
+* **Company Size:** Startups and enterprises scaling headcount (50 to 5,000+ employees).
+* **Industry Sector:** Technology, Fintech, SaaS, E-commerce, and Professional Services.
+* **Signal Profile:** Businesses posting local job listings, celebrating recent venture capital financing, or announcing physical geographic expansions.
+
+### Scoring Logic
+Leads are evaluated on a 0-100 scale based on three main dimensions:
+$$\text{Overall Score} = (w_{\text{fit}} \times \text{Fit}) + (w_{\text{intent}} \times \text{Intent}) + (w_{\text{timing}} \times \text{Timing})$$
+
+1. **Fit Score (30% weight):**
+   * Computes the alignment of the company size and industry. 
+   * Prefers organizations of 100-2,000 employees. 
+   * Matches company headquarters or target expansion cities against active Away Center locations.
+2. **Intent Score (40% weight):**
+   * Based on the number and quality of detected signals. 
+   * High-weight signals include hiring for administrative, facilities, or HR management roles (indicating office setups) and geographic office expansion announcements.
+3. **Timing Score (30% weight):**
+   * Measures signal recency using an exponential decay model.
+   * Recent events (within 7–14 days) receive the maximum score, decaying gradually to zero over a 90-day window.
+
+*If the **Overall Score exceeds 75**, the company is classified for **Immediate Outreach** and auto-synced to the CRM.*
 
 ---
 
-## 3. ICP and Scoring Logic
+## 3. System Architecture Diagram
 
-### Ideal Customer Profile (ICP) Filters
-*   **Geography**: Cities where away.center has physical locations: **Bangalore**, **Vizag**, **Kolkata** (Score 100). Sibling Indian cities (Score 40). Non-India (Score 0 / Excluded).
-*   **Company Size**: 10 to 500 employees (sweet spot for private and managed offices).
-*   **Hiring Profile**: Hiring for white-collar office roles (Software Engineers, HR, Sales, Admins, Office Managers, Operations) in target cities.
-*   **Office Intent**: Hiring for "Onsite" or "Hybrid" models.
-*   **Budget**: High-growth startups with recent funding rounds (Series A/B/C) indicating budget to invest in workspace infrastructure.
+```mermaid
+graph TD
+    %% Data Sources
+    subgraph Data Sources
+        News[Google News RSS]
+        Career[Company Career Sites]
+        Jobs[Wellfound / Job Boards]
+        Social[Twitter / LinkedIn]
+    end
 
-### Lead Scoring Model (Weighted Sum)
-$$\text{Overall Score} = (w_f \times \text{Fit Score}) + (w_i \times \text{Intent Score}) + (w_t \times \text{Timing Score})$$
-*(Default weights: $w_f = 0.35, w_i = 0.35, w_t = 0.30$)*
+    %% Pipeline & Processing
+    subgraph Backend Pipeline
+        Collector[Signal Collector Service]
+        Deduplicator[Deduplicator: SHA-256 Hash Filter]
+        Scorer[Scoring Engine]
+        LLM[OpenAI GPT-4o Outreach Writer]
+        Sync[CRM Sync Engine]
+    end
 
-#### 1. Fit Score (Max 100)
-*   **City**: Match with primary cities = 100 points. Match with secondary cities = 40 points.
-*   **Company Size**: 10–50 employees = 100 points. 51–200 employees = 80 points. 1–9 employees = 50 points. 200+ employees = 30 points.
-*   **Industry**: Tech, Fintech, SaaS, Consulting = 100 points. Traditional logistics, industrial = 30 points.
+    %% Storage & Queue
+    subgraph Storage & Caching
+        DB[(PostgreSQL / Mock DB)]
+        Queue[(In-Memory Job Queue)]
+    end
 
-#### 2. Intent Score (Max 100)
-*   **Hiring Signals**: Active hiring in target city = 50 points.
-*   **Expansion Signals**: Opening new branch / office expansion = 40 points.
-*   **Funding Signals**: Raised funding in last 12 months = 30 points.
-*   **Onsite/Hybrid Language**: Job description states "Onsite" or "Hybrid" = 20 points.
+    %% Client / Presentation
+    subgraph Frontend Client
+        Dash[Next.js Dashboard UI]
+        SalesQueue[Sales Queue Board]
+        SettingsPanel[Settings & Weights Panel]
+    end
 
-#### 3. Timing Score (Max 100)
-*   **Signal Recency**: 
-    *   Signal detected in last 7 days = 100 points.
-    *   Signal detected 8–30 days ago = 70 points.
-    *   Signal detected 31–90 days ago = 30 points.
-    *   Older than 90 days = 10 points.
+    %% Integrations
+    subgraph External Systems
+        Zoho[Zoho Bigin CRM]
+    end
 
-### Reducing False Positives
-*   **Negative Signals Filter**: Automatic exclusion if the company is a staffing agency, is fully remote, or is hiring purely blue-collar workers (e.g., delivery riders, warehouse workers).
-*   **Fuzzy Name Matching**: Prevent duplicate leads by normalizing names and matching domains.
-*   **Human-in-the-Loop**: If the AI confidence score of the generated outreach is under 70%, it is placed in the "Manual Review" queue instead of auto-syncing to Zoho.
+    %% Data Flow
+    News --> Collector
+    Career --> Collector
+    Jobs --> Collector
+    Social --> Collector
+    
+    Collector --> Deduplicator
+    Deduplicator --> DB
+    
+    DB --> Scorer
+    Scorer --> LLM
+    LLM --> Sync
+    
+    Sync --> Zoho
+    
+    DB <--> Dash
+    DB <--> SalesQueue
+    DB <--> SettingsPanel
+```
 
 ---
 
 ## 4. Data Source Plan
 
-### Data Flow Pipeline
-1.  **Ingestion**: Scrapers fetch raw feed items (Google News, Wellfound, RSS feeds).
-2.  **Cleaning & Normalization**:
-    *   Remove common corporate suffixes ("Pvt. Ltd.", "Inc.").
-    *   Extract domain from URL (e.g., `https://sliceit.com` -> `sliceit.com`).
-    *   Deduplicate using a unique hash of the signal content (`SHA256`).
-3.  **Resolution & Merge**: Match the company against existing database records via domain or name similarity. If matched, append the new signal to the existing profile rather than creating a new company.
-4.  **Enrichment**: Query the Apollo.io API using the company domain to find the headcount, exact city, and contact details for the decision-makers.
-
-### Reliability of Data Sources
-
-| Source | Reliability | Cost | Notes |
-| :--- | :--- | :--- | :--- |
-| **Google News RSS** | High | Free | Best for corporate office openings/expansion news. |
-| **Company Career Pages** | High | Free | Directly indicates hiring intent. Low false-positive rate. |
-| **Wellfound / Job Boards** | Medium-High | Low | Excellent for early-stage startup hiring. |
-| **LinkedIn Posts** | Medium | High | Hard to scrape directly due to IP blocks. |
-
-*   **Avoid Scraping**: Avoid direct, high-volume scraping of LinkedIn or Google Search pages. This leads to IP blocks, captchas, and high proxy costs. Instead, use official APIs or data aggregators like Apollo.io for enrichment.
-*   **Compliance (GDPR / DPDP)**: Store only publicly broadcasted business contact information. Include opt-out links in emails. Ensure the tool is used internally by sales reps rather than doing automated cold mass-mailing.
+| Data Source | Type | Extraction Technique | Frequency | Cost |
+|---|---|---|---|---|
+| **Google News RSS** | RSS / XML | HTTP fetch and XML regex extraction | Every 6 hours | Free |
+| **Career Portals** | Web Scrapes | Headless Playwright / HTML regex crawler | Daily | Free |
+| **Wellfound Jobs** | Job Feed | REST API query / scraping | Daily | Free |
+| **Crunchbase API** | Funding | Direct API query / Public databases | Weekly | Free |
 
 ---
 
 ## 5. Database Schema
+
+The system uses a relational database schema designed to support tracking companies, signals, scores, contacts, and CRM synchronization status.
 
 ```sql
 -- Companies Table
@@ -159,29 +119,20 @@ CREATE TABLE companies (
     id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     name VARCHAR(255) NOT NULL,
     normalized_name VARCHAR(255) UNIQUE,
-    website VARCHAR(255),
-    linkedin_url VARCHAR(255),
+    website VARCHAR(512),
+    linkedin_url VARCHAR(512),
     industry VARCHAR(100),
-    employee_count INTEGER,
+    employee_count INT,
     city VARCHAR(100),
     country VARCHAR(100),
     funding_stage VARCHAR(100),
     latest_funding_date DATE,
     estimated_budget NUMERIC,
-    is_active BOOLEAN DEFAULT true,
-    is_remote_only BOOLEAN DEFAULT false,
-    is_staffing_agency BOOLEAN DEFAULT false,
-    hiring_count INTEGER DEFAULT 0,
-    created_at TIMESTAMPTZ DEFAULT NOW(),
-    updated_at TIMESTAMPTZ DEFAULT NOW()
-);
-
--- Company Aliases (for deduplication)
-CREATE TABLE company_aliases (
-    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-    company_id UUID REFERENCES companies(id) ON DELETE CASCADE,
-    alias_name VARCHAR(255) UNIQUE NOT NULL,
-    created_at TIMESTAMPTZ DEFAULT NOW()
+    is_active BOOLEAN DEFAULT TRUE,
+    is_remote_only BOOLEAN DEFAULT FALSE,
+    is_staffing_agency BOOLEAN DEFAULT FALSE,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
 -- Signals Table
@@ -192,11 +143,23 @@ CREATE TABLE signals (
     signal_source VARCHAR(50) NOT NULL, -- 'career_page', 'news_api', etc.
     signal_text TEXT NOT NULL,
     signal_date DATE NOT NULL,
-    confidence_score INTEGER DEFAULT 100,
-    content_hash VARCHAR(64) NOT NULL,
-    is_active BOOLEAN DEFAULT true,
-    created_at TIMESTAMPTZ DEFAULT NOW(),
-    UNIQUE (company_id, content_hash)
+    confidence_score INT NOT NULL,
+    is_duplicate BOOLEAN DEFAULT FALSE,
+    is_active BOOLEAN DEFAULT TRUE,
+    raw_payload JSONB,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Scores Table
+CREATE TABLE scores (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    company_id UUID REFERENCES companies(id) ON DELETE CASCADE UNIQUE,
+    fit_score INT NOT NULL DEFAULT 0,
+    intent_score INT NOT NULL DEFAULT 0,
+    timing_score INT NOT NULL DEFAULT 0,
+    overall_score INT NOT NULL DEFAULT 0,
+    score_reasoning TEXT,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
 -- Contacts Table
@@ -204,107 +167,113 @@ CREATE TABLE contacts (
     id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     company_id UUID REFERENCES companies(id) ON DELETE CASCADE,
     name VARCHAR(255) NOT NULL,
-    title VARCHAR(255),
-    linkedin_url VARCHAR(255),
+    title VARCHAR(100),
+    linkedin_url VARCHAR(512),
     email VARCHAR(255),
     seniority VARCHAR(50),
-    decision_maker BOOLEAN DEFAULT false,
-    created_at TIMESTAMPTZ DEFAULT NOW()
+    decision_maker BOOLEAN DEFAULT FALSE,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
--- Scores Table
-CREATE TABLE scores (
-    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-    company_id UUID REFERENCES companies(id) ON DELETE CASCADE UNIQUE,
-    fit_score INTEGER DEFAULT 0,
-    intent_score INTEGER DEFAULT 0,
-    timing_score INTEGER DEFAULT 0,
-    overall_score INTEGER DEFAULT 0,
-    score_reasoning TEXT,
-    updated_at TIMESTAMPTZ DEFAULT NOW()
-);
-
--- Outreach Recommendations Table
-CREATE TABLE outreach_recommendations (
-    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-    company_id UUID REFERENCES companies(id) ON DELETE CASCADE,
-    recommended_product VARCHAR(100),
-    outreach_angle VARCHAR(255),
-    subject VARCHAR(255),
-    personalization TEXT,
-    pain_point TEXT,
-    cta TEXT,
-    ai_confidence NUMERIC,
-    requires_human_review BOOLEAN DEFAULT false,
-    created_at TIMESTAMPTZ DEFAULT NOW()
-);
-
--- CRM Records (Sync Audit Log)
+-- CRM Sync Records
 CREATE TABLE crm_records (
     id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     company_id UUID REFERENCES companies(id) ON DELETE CASCADE UNIQUE,
     zoho_lead_id VARCHAR(100),
-    status VARCHAR(50) NOT NULL, -- 'pending', 'synced', 'failed', 'dead_letter'
-    assigned_salesperson VARCHAR(100),
-    last_updated TIMESTAMPTZ DEFAULT NOW(),
-    retry_count INTEGER DEFAULT 0,
+    status VARCHAR(50) NOT NULL DEFAULT 'pending', -- 'pending', 'synced', 'failed'
+    assigned_salesperson VARCHAR(255),
+    last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    retry_count INT DEFAULT 0,
     last_error TEXT
+);
+
+-- Outreach Recommendations
+CREATE TABLE outreach_recommendations (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    company_id UUID REFERENCES companies(id) ON DELETE CASCADE UNIQUE,
+    recommended_product VARCHAR(100) NOT NULL,
+    outreach_angle TEXT,
+    subject TEXT,
+    personalization TEXT,
+    pain_point TEXT,
+    cta TEXT,
+    ai_confidence INT DEFAULT 70,
+    requires_human_review BOOLEAN DEFAULT FALSE,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 ```
 
 ---
 
-## 6. CRM & Sales Integration Plan
+## 6. MVP Design
 
-### How the Sales Team Acts on It
-1.  Every morning, the sales rep logs into the dashboard and views the **Sales Queue** under the *Immediate Outreach* tab.
-2.  They review the AI-suggested subject line and personalized message.
-3.  They click **Find via Apollo** to pull the latest contact information.
-4.  They push the lead to Zoho CRM by clicking **Sync to Zoho**.
-5.  They copy the personalized outreach template and send it via email or LinkedIn.
-
-### Zoho Bigin API Integration
-*   The backend enqueues CRM sync jobs to a **BullMQ queue** powered by Redis.
-*   The worker retrieves Zoho Access Tokens using a secure OAuth2 refresh token workflow.
-*   It checks if the company already exists in Zoho (to prevent duplicates) and creates a new Lead/Contact.
-*   **Error Management**: If the Zoho API rate limit is exceeded or returns a `5xx` error, the job is retried using exponential backoff (e.g., retry after 5 mins, 15 mins, 45 mins). After 5 failed attempts, the status is marked as `dead_letter` for manual admin review.
+The frontend is built using Next.js 15, styled with Vanilla CSS, featuring:
+* **Interactive Dashboard:** Core KPIs (leads, signals, qualified accounts) and data charts display high-level health metrics.
+* **Prioritized Sales Queue:** A card board categorizing leads by priority status (`Immediate Outreach`, `Nurture`, `Manual Review`, `Ignored`).
+* **Company Profile Explorer:** Visualizes a single company's score breakdown, chronological signal timeline, AI-generated email pitch, and an active panel to add and sync contacts.
+* **Control Center:** Sliders to customize scoring weights and a form to modify background crawler schedules.
 
 ---
 
-## 7. Build vs. Buy Recommendation
+## 7. 90-Day Roadmap
 
-We recommend a **hybrid architecture** that builds the orchestration layer internally but buys/integrates specialized APIs for data enrichment and scraping.
+```
+  Days 1-30: Core Scrapers & Scoring (Completed)
+  ├─ Implement Google News RSS & Playwright scrapers
+  ├─ Design three-dimensional scoring system (Fit, Intent, Timing)
+  └─ Build Next.js Dashboard and Sales Queue interface
 
-### Internally Built (Custom Code)
-*   **Orchestration Engine**: Custom background job queue (BullMQ), name normalization, and company merging rules.
-*   **Scoring Model & Product Recommendation**: Custom calculation based on away.center's specific locations and product catalog.
-*   **Sales Dashboard**: Next.js app to display the pipeline, queues, and settings.
+  Days 31-60: Integrations & Live CRM
+  ├─ Implement Zoho CRM OAuth handshake
+  ├─ Configure real-time Slack/Teams alert notifications
+  └─ Add audit logs UI and scheduler execution tracking
 
-### Bought / Third-Party Integrated
-*   **Contact & Company Profile Enrichment**: Integrated via **Apollo.io API** or **Clay** waterfalls (do not build in-house web scrapers to crawl social profiles).
-*   **Raw News & Alert Extraction**: Integrated via **Google News RSS** and **NewsAPI**.
-*   **AI Copywriting**: Powered by **OpenAI API (GPT-4o)**.
-
-### Monthly Cost Analysis (Projections for MVP)
-
-| Component | Provider | Cost | Notes |
-| :--- | :--- | :--- | :--- |
-| **Enrichment** | Apollo.io API (Basic) | \$99 / mo | 2,000 email/phone credits per month. |
-| **Web Crawling** | ScrapingBee or similar proxy | \$49 / mo | For fallback career page crawling. |
-| **Generative AI** | OpenAI API (GPT-4o-mini) | \~$20 / mo | Pay-per-token (extremely cheap for small payloads). |
-| **Database & Queue** | Neon + Upstash Redis | \$0 - \$20 / mo | Free tiers cover initial low-volume testing. |
-| **Hosting** | Vercel (Frontend) + Railway (Backend) | \$25 / mo | For running background Node services. |
-| **Total Estimated Cost** | — | **\~$213 / month** | Extremely cost-effective for a business pipeline. |
+  Days 61-90: Scale & Automation
+  ├─ Launch automated cold-email outbound sequences
+  ├─ Integrate proxy rotation for web crawlers
+  └─ Expand target coverage to 3 new cities
+```
 
 ---
 
-## 8. Risks, Compliance, and Future Improvements
+## 8. CRM Integration Plan (Zoho Bigin)
+1. **Authentication:** Authenticate via Zoho OAuth 2.0 with offline access tokens stored securely.
+2. **Lead Mapping:**
+   * `Company Name` $\rightarrow$ Zoho Account Name
+   * `Website` $\rightarrow$ Zoho Account Website
+   * `Recommended Product` $\rightarrow$ Custom CRM field
+   * `AI Personalization & Draft` $\rightarrow$ Description / Note
+3. **Automated Sync:** A daily cron job finds companies marked `pending` in `crm_records` with an `overall_score >= 75` and posts them to the Zoho API. On success, state updates to `synced`.
 
-### Key Risks & Mitigations
-*   **LinkedIn Web Scraping Blocks**: *Risk:* Getting account-restricted or IP-blocked. *Mitigation:* Completely avoid scraping LinkedIn directly. Instead, fetch employee and role data programmatically via Apollo.io enrichment API.
-*   **Data Decay**: *Risk:* Contacts changing jobs, making emails bounce. *Mitigation:* Refresh contact details through the enrichment API before launching campaigns.
-*   **Sales Team Alert Fatigue**: *Risk:* Too many low-quality leads flooding the CRM. *Mitigation:* Ensure a strict threshold (score ≥ 75) for auto-syncing, and keep a manual review queue active.
+---
 
-### Continuous Improvement (Feedback Loop)
-*   **Outcome Tracking**: The system monitors deals synced to Zoho. When a lead's status transitions to `closed_won` or `closed_lost`, the outcome is recorded.
-*   **Machine Learning Calibration**: If a high-intent lead in a particular industry or city consistently results in a `closed_lost` deal, the system decreases that industry's/city's Fit score weight. If a specific signal (e.g., funding) leads to a high rate of `closed_won` deals, its Intent score weight is automatically boosted.
+## 9. Cost Estimate (Under $150 / month)
+
+* **Database & Hosting (Render / Heroku):**
+  * Express API Server & Worker Host: $14/month
+  * Managed PostgreSQL: $15/month
+  * Upstash Redis (Serverless): Free / $10/month
+* **APIs:**
+  * OpenAI API (GPT-4o calls for outreach): ~$25/month (based on volume)
+  * News API & RSS: $0/month
+  * Vercel (Frontend Hosting): Free (Hobby tier)
+* **Total Estimated Cost:** **~$64/month**
+
+---
+
+## 10. Build-versus-Buy Recommendation
+We recommend **building** this platform custom. 
+
+* **Why standard tools fail:** Off-the-shelf databases (like Apollo, ZoomInfo, or Lusha) provide static firmographic lists, but they do not calculate custom real estate intent scores nor do they provide automated workspace product recommendations (e.g., matching hiring patterns to Private Offices vs. Day Passes).
+* **Speed to value:** A custom build can be quickly tailored to Away Center's specific business definitions and local Indian cities.
+
+---
+
+## 11. Risks & Compliance
+* **Web Scraping Rate Limits:** Target career sites may block scrapers. *Mitigation:* We use a lightweight HTTP regex fallback when Playwright browser launch is blocked or fails, and enforce random sleep delays between page requests.
+* **GDPR & CAN-SPAM Compliance:** Reaching out to personal business emails requires consent or legitimate interest. *Mitigation:* Personalization draft includes a clear "opt-out" clause, and email triggers remain manual/opt-in for the sales representative during the MVP phase.
+
+---
+
+## 12. Working Prototype Details
+The application has been fully developed locally. For Vercel deployments, a high-fidelity **client-side/server-side mock fallback** is embedded. If the frontend cannot communicate with the database/API server, it falls back to a 17-company database, allowing you to demonstrate the full application (searching, company profiles, adding contacts, changing settings, and CRM syncing) directly from the Vercel web interface.
